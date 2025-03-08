@@ -1,0 +1,11 @@
+
+Epoch 1/10: Loss=2.0016, Acc=0.3362, Val Loss=1.5218, Val Acc=0.5260
+Epoch 2/10: Loss=1.1430, Acc=0.6355, Val Loss=0.8952, Val Acc=0.6937
+Epoch 3/10: Loss=0.8205, Acc=0.7090, Val Loss=0.7415, Val Acc=0.7385
+Epoch 4/10: Loss=0.7133, Acc=0.7474, Val Loss=0.6686, Val Acc=0.7563
+Epoch 5/10: Loss=0.6513, Acc=0.7732, Val Loss=0.6235, Val Acc=0.7770
+Epoch 6/10: Loss=0.6087, Acc=0.7879, Val Loss=0.5860, Val Acc=0.7965
+Epoch 7/10: Loss=0.5775, Acc=0.8003, Val Loss=0.5587, Val Acc=0.8037
+Epoch 8/10: Loss=0.5525, Acc=0.8085, Val Loss=0.5371, Val Acc=0.8125
+Epoch 9/10: Loss=0.5320, Acc=0.8146, Val Loss=0.5243, Val Acc=0.8180
+Epoch 10/10: Loss=0.5170, Acc=0.8202, Val Loss=0.5069, Val Acc=0.8225

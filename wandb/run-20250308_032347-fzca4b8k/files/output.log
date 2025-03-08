@@ -1,0 +1,18 @@
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-labels-idx1-ubyte.gz
+32768/29515 [=================================] - 0s 0us/step
+40960/29515 [=========================================] - 0s 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-images-idx3-ubyte.gz
+
+26427392/26421880 [==============================] - 4s 0us/step
+26435584/26421880 [==============================] - 4s 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-labels-idx1-ubyte.gz
+16384/5148 [===============================================================================================] - 0s 0s/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-images-idx3-ubyte.gz
+4423680/4422102 [==============================] - 1s 0us/step
+4431872/4422102 [==============================] - 1s 0us/step
+Epoch 1/5: Loss=0.5225, Acc=0.8129, Val Loss=0.4337, Val Acc=0.8410
+Epoch 2/5: Loss=0.3862, Acc=0.8597, Val Loss=0.3725, Val Acc=0.8660
+Epoch 3/5: Loss=0.3447, Acc=0.8743, Val Loss=0.3380, Val Acc=0.8752
+Epoch 4/5: Loss=0.3256, Acc=0.8800, Val Loss=0.3471, Val Acc=0.8682
+Epoch 5/5: Loss=0.3100, Acc=0.8853, Val Loss=0.3504, Val Acc=0.8748
+Test Accuracy: 0.8663
