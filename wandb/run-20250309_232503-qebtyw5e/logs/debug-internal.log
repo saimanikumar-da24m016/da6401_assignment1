@@ -256,3 +256,26 @@
 2025-03-09 23:27:26,942 DEBUG   HandlerThread:21688 [handler.py:handle_request():146] handle_request: status_report
 2025-03-09 23:27:29,344 ERROR   gpu       :21688 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
 2025-03-09 23:27:29,345 ERROR   gpu       :21688 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-09 23:27:31,990 DEBUG   HandlerThread:21688 [handler.py:handle_request():146] handle_request: status_report
+2025-03-09 23:27:34,317 ERROR   gpu       :21688 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-09 23:27:34,318 ERROR   gpu       :21688 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-09 23:27:36,065 DEBUG   HandlerThread:21688 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-09 23:27:36,068 DEBUG   SenderThread:21688 [sender.py:send():382] send: history
+2025-03-09 23:27:36,068 DEBUG   SenderThread:21688 [sender.py:send_request():409] send_request: summary_record
+2025-03-09 23:27:36,071 INFO    SenderThread:21688 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-09 23:27:36,727 ERROR   gpu       :21688 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-09 23:27:36,727 ERROR   gpu       :21688 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-09 23:27:37,075 DEBUG   HandlerThread:21688 [handler.py:handle_request():146] handle_request: status_report
+2025-03-09 23:27:37,077 INFO    Thread-16 :21688 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250309_232503-qebtyw5e\files\output.log
+2025-03-09 23:27:37,078 INFO    Thread-16 :21688 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250309_232503-qebtyw5e\files\wandb-summary.json
+2025-03-09 23:27:37,349 DEBUG   SenderThread:21688 [sender.py:send():382] send: stats
+2025-03-09 23:27:37,565 DEBUG   HandlerThread:21688 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-09 23:27:37,596 DEBUG   HandlerThread:21688 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-09 23:27:37,596 DEBUG   SenderThread:21688 [sender.py:send_request():409] send_request: stop_status
+2025-03-09 23:27:39,129 ERROR   gpu       :21688 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-09 23:27:39,130 ERROR   gpu       :21688 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-09 23:27:41,527 ERROR   gpu       :21688 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-09 23:27:41,528 ERROR   gpu       :21688 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-09 23:27:42,944 DEBUG   HandlerThread:21688 [handler.py:handle_request():146] handle_request: status_report
+2025-03-09 23:27:43,928 ERROR   gpu       :21688 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-09 23:27:43,930 ERROR   gpu       :21688 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
