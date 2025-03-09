@@ -1,0 +1,7 @@
+
+Run Name: nadam_sigmoid_5_128_64
+Epoch 1/5: Loss=1.9332, Acc=0.2132, Val Loss=1.5636, Val Acc=0.3172
+Epoch 2/5: Loss=1.1412, Acc=0.5057, Val Loss=0.7658, Val Acc=0.7215
+Epoch 3/5: Loss=0.6646, Acc=0.7735, Val Loss=0.6184, Val Acc=0.7972
+Epoch 4/5: Loss=0.5681, Acc=0.8138, Val Loss=0.5612, Val Acc=0.8260
+Epoch 5/5: Loss=0.5239, Acc=0.8310, Val Loss=0.5517, Val Acc=0.8288

@@ -1,0 +1,12 @@
+
+Run Name: momentum_tanh_4_64_32
+Epoch 1/10: Loss=1.5581, Acc=0.5328, Val Loss=1.1469, Val Acc=0.6893
+Epoch 2/10: Loss=0.9804, Acc=0.7131, Val Loss=0.8453, Val Acc=0.7420
+Epoch 3/10: Loss=0.7813, Acc=0.7509, Val Loss=0.7171, Val Acc=0.7613
+Epoch 4/10: Loss=0.6863, Acc=0.7691, Val Loss=0.6497, Val Acc=0.7815
+Epoch 5/10: Loss=0.6302, Acc=0.7823, Val Loss=0.6040, Val Acc=0.7928
+Epoch 6/10: Loss=0.5907, Acc=0.7940, Val Loss=0.5718, Val Acc=0.7978
+Epoch 7/10: Loss=0.5608, Acc=0.8042, Val Loss=0.5478, Val Acc=0.8065
+Epoch 8/10: Loss=0.5375, Acc=0.8118, Val Loss=0.5271, Val Acc=0.8123
+Epoch 9/10: Loss=0.5192, Acc=0.8187, Val Loss=0.5129, Val Acc=0.8185
+Epoch 10/10: Loss=0.5037, Acc=0.8244, Val Loss=0.4989, Val Acc=0.8203

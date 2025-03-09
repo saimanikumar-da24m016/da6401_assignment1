@@ -1,0 +1,8 @@
+
+[34m[1mwandb[39m[22m: Network error resolved after 0:00:03.870921, resuming normal operation.
+Run Name: sgd_sigmoid_3_128_64
+Epoch 1/5: Loss=2.4347, Acc=0.1003, Val Loss=2.4077, Val Acc=0.0995
+Epoch 2/5: Loss=2.3781, Acc=0.1081, Val Loss=2.3654, Val Acc=0.1277
+Epoch 3/5: Loss=2.3467, Acc=0.1384, Val Loss=2.3406, Val Acc=0.1510
+Epoch 4/5: Loss=2.3284, Acc=0.1595, Val Loss=2.3257, Val Acc=0.1615
+Epoch 5/5: Loss=2.3174, Acc=0.1644, Val Loss=2.3166, Val Acc=0.1677

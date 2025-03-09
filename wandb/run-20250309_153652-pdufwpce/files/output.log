@@ -1,0 +1,7 @@
+
+Run Name: nadam_relu_4_64_64
+Epoch 1/5: Loss=0.9096, Acc=0.6960, Val Loss=0.5548, Val Acc=0.7975
+Epoch 2/5: Loss=0.5124, Acc=0.8225, Val Loss=0.4711, Val Acc=0.8377
+Epoch 3/5: Loss=0.4532, Acc=0.8432, Val Loss=0.4408, Val Acc=0.8478
+Epoch 4/5: Loss=0.4224, Acc=0.8533, Val Loss=0.4256, Val Acc=0.8507
+Epoch 5/5: Loss=0.4023, Acc=0.8602, Val Loss=0.3991, Val Acc=0.8567

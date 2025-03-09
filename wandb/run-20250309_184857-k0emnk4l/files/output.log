@@ -1,0 +1,7 @@
+
+Run Name: nesterov_sigmoid_4_128_64
+Epoch 1/5: Loss=2.3038, Acc=0.0989, Val Loss=2.3028, Val Acc=0.0985
+Epoch 2/5: Loss=2.3039, Acc=0.0989, Val Loss=2.3054, Val Acc=0.0985
+Epoch 3/5: Loss=2.3038, Acc=0.0984, Val Loss=2.3039, Val Acc=0.0973
+Epoch 4/5: Loss=2.3036, Acc=0.1004, Val Loss=2.3046, Val Acc=0.0985
+Epoch 5/5: Loss=2.3037, Acc=0.1003, Val Loss=2.3037, Val Acc=0.0973

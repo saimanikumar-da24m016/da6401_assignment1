@@ -1,0 +1,7 @@
+
+Run Name: adam_relu_5_64_64
+Epoch 1/5: Loss=0.5741, Acc=0.7952, Val Loss=0.4376, Val Acc=0.8407
+Epoch 2/5: Loss=0.3949, Acc=0.8570, Val Loss=0.3987, Val Acc=0.8555
+Epoch 3/5: Loss=0.3552, Acc=0.8698, Val Loss=0.3487, Val Acc=0.8747
+Epoch 4/5: Loss=0.3337, Acc=0.8766, Val Loss=0.4010, Val Acc=0.8598
+Epoch 5/5: Loss=0.3133, Acc=0.8853, Val Loss=0.3329, Val Acc=0.8800

@@ -1,0 +1,12 @@
+
+Run Name: nesterov_tanh_4_32_32
+Epoch 1/10: Loss=2.2899, Acc=0.1368, Val Loss=2.3029, Val Acc=0.0925
+Epoch 2/10: Loss=2.3027, Acc=0.0987, Val Loss=2.3029, Val Acc=0.0925
+Epoch 3/10: Loss=2.3027, Acc=0.0987, Val Loss=2.3028, Val Acc=0.0925
+Epoch 4/10: Loss=2.3027, Acc=0.0980, Val Loss=2.3028, Val Acc=0.0925
+Epoch 5/10: Loss=2.3027, Acc=0.0997, Val Loss=2.3027, Val Acc=0.0973
+Epoch 6/10: Loss=2.3026, Acc=0.0991, Val Loss=2.3029, Val Acc=0.1027
+Epoch 7/10: Loss=2.3027, Acc=0.0996, Val Loss=2.3029, Val Acc=0.0925
+Epoch 8/10: Loss=2.3027, Acc=0.0998, Val Loss=2.3027, Val Acc=0.0985
+Epoch 9/10: Loss=2.3027, Acc=0.1000, Val Loss=2.3028, Val Acc=0.0985
+Epoch 10/10: Loss=2.3027, Acc=0.0985, Val Loss=2.3027, Val Acc=0.0985

@@ -1,0 +1,12 @@
+
+Run Name: adam_sigmoid_5_64_64
+Epoch 1/10: Loss=1.2120, Acc=0.5211, Val Loss=0.7863, Val Acc=0.6862
+Epoch 2/10: Loss=0.6597, Acc=0.7530, Val Loss=0.5718, Val Acc=0.7922
+Epoch 3/10: Loss=0.5383, Acc=0.8032, Val Loss=0.5240, Val Acc=0.8135
+Epoch 4/10: Loss=0.4827, Acc=0.8299, Val Loss=0.4723, Val Acc=0.8378
+Epoch 5/10: Loss=0.4478, Acc=0.8477, Val Loss=0.4471, Val Acc=0.8478
+Epoch 6/10: Loss=0.4172, Acc=0.8577, Val Loss=0.4284, Val Acc=0.8513
+Epoch 7/10: Loss=0.3945, Acc=0.8663, Val Loss=0.4073, Val Acc=0.8605
+Epoch 8/10: Loss=0.3795, Acc=0.8702, Val Loss=0.4001, Val Acc=0.8638
+Epoch 9/10: Loss=0.3619, Acc=0.8772, Val Loss=0.3961, Val Acc=0.8665
+Epoch 10/10: Loss=0.3488, Acc=0.8817, Val Loss=0.3843, Val Acc=0.8688

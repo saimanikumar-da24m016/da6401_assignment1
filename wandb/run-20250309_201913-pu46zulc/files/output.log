@@ -1,0 +1,12 @@
+
+Run Name: adam_tanh_5_128_16
+Epoch 1/10: Loss=1.0551, Acc=0.5545, Val Loss=0.6775, Val Acc=0.7515
+Epoch 2/10: Loss=0.5930, Acc=0.7868, Val Loss=0.5312, Val Acc=0.8130
+Epoch 3/10: Loss=0.5088, Acc=0.8241, Val Loss=0.4816, Val Acc=0.8305
+Epoch 4/10: Loss=0.4739, Acc=0.8371, Val Loss=0.4820, Val Acc=0.8387
+Epoch 5/10: Loss=0.4447, Acc=0.8451, Val Loss=0.4403, Val Acc=0.8500
+Epoch 6/10: Loss=0.4204, Acc=0.8515, Val Loss=0.4453, Val Acc=0.8442
+Epoch 7/10: Loss=0.4125, Acc=0.8569, Val Loss=0.4334, Val Acc=0.8458
+Epoch 8/10: Loss=0.4015, Acc=0.8603, Val Loss=0.4062, Val Acc=0.8627
+Epoch 9/10: Loss=0.3928, Acc=0.8618, Val Loss=0.4399, Val Acc=0.8423
+Epoch 10/10: Loss=0.3783, Acc=0.8661, Val Loss=0.4043, Val Acc=0.8610

@@ -1,0 +1,1 @@
+{"Fashion_MNIST_Sample": {"_type": "image-file", "sha256": "17b1cfabf4e62869f2634f12e65566516ba0a4acc2e8cff76f37eb375547fbf3", "size": 26164, "path": "media/images/Fashion_MNIST_Sample_1_17b1cfabf4e62869f263.png", "format": "png", "width": 864, "height": 432}, "_timestamp": 1741435102.8594368, "_runtime": 8.436166763305664, "_step": 2, "_wandb": {"runtime": 6}}

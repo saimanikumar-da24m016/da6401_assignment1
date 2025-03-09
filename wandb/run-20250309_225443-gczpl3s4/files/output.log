@@ -1,0 +1,12 @@
+
+Run Name: nadam_sigmoid_5_128_64
+Epoch 1/10: Loss=0.0417, Acc=0.2054, Val Loss=0.0387, Val Acc=0.2927
+Epoch 2/10: Loss=0.0327, Acc=0.4456, Val Loss=0.0243, Val Acc=0.6298
+Epoch 3/10: Loss=0.0227, Acc=0.6313, Val Loss=0.0211, Val Acc=0.6853
+Epoch 4/10: Loss=0.0166, Acc=0.7619, Val Loss=0.0129, Val Acc=0.8325
+Epoch 5/10: Loss=0.0119, Acc=0.8387, Val Loss=0.0121, Val Acc=0.8333
+Epoch 6/10: Loss=0.0110, Acc=0.8502, Val Loss=0.0115, Val Acc=0.8448
+Epoch 7/10: Loss=0.0105, Acc=0.8577, Val Loss=0.0115, Val Acc=0.8443
+Epoch 8/10: Loss=0.0101, Acc=0.8629, Val Loss=0.0109, Val Acc=0.8553
+Epoch 9/10: Loss=0.0095, Acc=0.8707, Val Loss=0.0105, Val Acc=0.8597
+Epoch 10/10: Loss=0.0090, Acc=0.8786, Val Loss=0.0105, Val Acc=0.8613

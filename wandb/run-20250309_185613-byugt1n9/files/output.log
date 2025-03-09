@@ -1,0 +1,7 @@
+
+Run Name: sgd_tanh_4_64_16
+Epoch 1/5: Loss=2.0769, Acc=0.3086, Val Loss=1.8958, Val Acc=0.4898
+Epoch 2/5: Loss=1.7490, Acc=0.5341, Val Loss=1.6132, Val Acc=0.5883
+Epoch 3/5: Loss=1.5103, Acc=0.5978, Val Loss=1.4094, Val Acc=0.6272
+Epoch 4/5: Loss=1.3382, Acc=0.6365, Val Loss=1.2609, Val Acc=0.6597
+Epoch 5/5: Loss=1.2114, Acc=0.6637, Val Loss=1.1496, Val Acc=0.6838

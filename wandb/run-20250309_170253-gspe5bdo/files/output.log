@@ -1,0 +1,12 @@
+
+Run Name: sgd_tanh_3_32_16
+Epoch 1/10: Loss=0.0431, Acc=0.2351, Val Loss=0.0411, Val Acc=0.3450
+Epoch 2/10: Loss=0.0395, Acc=0.4158, Val Loss=0.0379, Val Acc=0.4950
+Epoch 3/10: Loss=0.0366, Acc=0.5493, Val Loss=0.0352, Val Acc=0.5848
+Epoch 4/10: Loss=0.0340, Acc=0.6109, Val Loss=0.0328, Val Acc=0.6272
+Epoch 5/10: Loss=0.0318, Acc=0.6489, Val Loss=0.0308, Val Acc=0.6638
+Epoch 6/10: Loss=0.0299, Acc=0.6708, Val Loss=0.0290, Val Acc=0.6820
+Epoch 7/10: Loss=0.0283, Acc=0.6836, Val Loss=0.0274, Val Acc=0.6948
+Epoch 8/10: Loss=0.0268, Acc=0.6939, Val Loss=0.0260, Val Acc=0.7057
+Epoch 9/10: Loss=0.0255, Acc=0.7019, Val Loss=0.0249, Val Acc=0.7120
+Epoch 10/10: Loss=0.0245, Acc=0.7081, Val Loss=0.0239, Val Acc=0.7198

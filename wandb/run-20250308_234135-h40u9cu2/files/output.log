@@ -1,0 +1,7 @@
+
+Run Name: rmsprop_sigmoid_5_128_64
+Epoch 1/5: Loss=1.1126, Acc=0.5290, Val Loss=0.6628, Val Acc=0.7748
+Epoch 2/5: Loss=0.6027, Acc=0.7756, Val Loss=0.5400, Val Acc=0.8018
+Epoch 3/5: Loss=0.5227, Acc=0.8045, Val Loss=0.4986, Val Acc=0.8203
+Epoch 4/5: Loss=0.4840, Acc=0.8208, Val Loss=0.5127, Val Acc=0.8095
+Epoch 5/5: Loss=0.4554, Acc=0.8341, Val Loss=0.4775, Val Acc=0.8268

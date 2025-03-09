@@ -1,0 +1,6 @@
+Run Name: sgd_sigmoid_4_32_64
+Epoch 1/5: Loss=0.0450, Acc=0.1002, Val Loss=0.0450, Val Acc=0.0973
+Epoch 2/5: Loss=0.0450, Acc=0.1003, Val Loss=0.0450, Val Acc=0.0973
+Epoch 3/5: Loss=0.0450, Acc=0.0987, Val Loss=0.0450, Val Acc=0.0973
+Epoch 4/5: Loss=0.0450, Acc=0.0998, Val Loss=0.0450, Val Acc=0.0925
+Epoch 5/5: Loss=0.0450, Acc=0.0996, Val Loss=0.0450, Val Acc=0.0925

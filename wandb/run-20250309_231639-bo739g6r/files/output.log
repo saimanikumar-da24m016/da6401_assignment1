@@ -1,0 +1,12 @@
+
+Run Name: rmsprop_relu_5_128_32
+Epoch 1/10: Loss=0.0166, Acc=0.7679, Val Loss=0.0124, Val Acc=0.8277
+Epoch 2/10: Loss=0.0113, Acc=0.8439, Val Loss=0.0105, Val Acc=0.8523
+Epoch 3/10: Loss=0.0102, Acc=0.8594, Val Loss=0.0101, Val Acc=0.8593
+Epoch 4/10: Loss=0.0094, Acc=0.8699, Val Loss=0.0103, Val Acc=0.8555
+Epoch 5/10: Loss=0.0089, Acc=0.8757, Val Loss=0.0091, Val Acc=0.8747
+Epoch 6/10: Loss=0.0085, Acc=0.8813, Val Loss=0.0088, Val Acc=0.8775
+Epoch 7/10: Loss=0.0082, Acc=0.8864, Val Loss=0.0095, Val Acc=0.8688
+Epoch 8/10: Loss=0.0079, Acc=0.8882, Val Loss=0.0089, Val Acc=0.8705
+Epoch 9/10: Loss=0.0077, Acc=0.8936, Val Loss=0.0090, Val Acc=0.8750
+Epoch 10/10: Loss=0.0075, Acc=0.8962, Val Loss=0.0083, Val Acc=0.8835

@@ -1,0 +1,7 @@
+
+Run Name: nadam_tanh_5_128_64
+Epoch 1/5: Loss=0.0120, Acc=0.8285, Val Loss=0.0100, Val Acc=0.8608
+Epoch 2/5: Loss=0.0095, Acc=0.8667, Val Loss=0.0095, Val Acc=0.8667
+Epoch 3/5: Loss=0.0088, Acc=0.8771, Val Loss=0.0092, Val Acc=0.8707
+Epoch 4/5: Loss=0.0081, Acc=0.8866, Val Loss=0.0110, Val Acc=0.8462
+Epoch 5/5: Loss=0.0078, Acc=0.8911, Val Loss=0.0094, Val Acc=0.8712

@@ -1,0 +1,7 @@
+
+Run Name: momentum_tanh_4_64_32
+Epoch 1/5: Loss=0.0450, Acc=0.0994, Val Loss=0.0450, Val Acc=0.0973
+Epoch 2/5: Loss=0.0450, Acc=0.0989, Val Loss=0.0450, Val Acc=0.0942
+Epoch 3/5: Loss=0.0450, Acc=0.1001, Val Loss=0.0450, Val Acc=0.0925
+Epoch 4/5: Loss=0.0450, Acc=0.0997, Val Loss=0.0450, Val Acc=0.0942
+Epoch 5/5: Loss=0.0450, Acc=0.0975, Val Loss=0.0450, Val Acc=0.0942

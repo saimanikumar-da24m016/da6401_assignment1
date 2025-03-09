@@ -1,0 +1,6 @@
+Run Name: rmsprop_tanh_3_32_32
+Epoch 1/5: Loss=1.8054, Acc=0.2000, Val Loss=1.6940, Val Acc=0.1987
+Epoch 2/5: Loss=1.6826, Acc=0.2017, Val Loss=1.6748, Val Acc=0.1992
+Epoch 3/5: Loss=1.6452, Acc=0.2383, Val Loss=1.5547, Val Acc=0.3090
+Epoch 4/5: Loss=1.3916, Acc=0.3743, Val Loss=1.2489, Val Acc=0.4068
+Epoch 5/5: Loss=1.2130, Acc=0.4052, Val Loss=1.1809, Val Acc=0.4183

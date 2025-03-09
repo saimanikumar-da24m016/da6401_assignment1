@@ -1,0 +1,7 @@
+
+Run Name: adam_sigmoid_5_64_32
+Epoch 1/5: Loss=2.1057, Acc=0.1914, Val Loss=1.7698, Val Acc=0.1957
+Epoch 2/5: Loss=1.6211, Acc=0.3265, Val Loss=1.4180, Val Acc=0.3943
+Epoch 3/5: Loss=1.3076, Acc=0.4183, Val Loss=1.2207, Val Acc=0.4415
+Epoch 4/5: Loss=1.1724, Acc=0.4782, Val Loss=1.1224, Val Acc=0.5002
+Epoch 5/5: Loss=1.0924, Acc=0.5050, Val Loss=1.0595, Val Acc=0.4980

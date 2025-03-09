@@ -1,0 +1,11 @@
+Run Name: rmsprop_sigmoid_4_32_64
+Epoch 1/10: Loss=1.4540, Acc=0.4488, Val Loss=0.9741, Val Acc=0.6433
+Epoch 2/10: Loss=0.8316, Acc=0.6888, Val Loss=0.7275, Val Acc=0.7197
+Epoch 3/10: Loss=0.6955, Acc=0.7353, Val Loss=0.6569, Val Acc=0.7748
+Epoch 4/10: Loss=0.6264, Acc=0.7772, Val Loss=0.5986, Val Acc=0.7985
+Epoch 5/10: Loss=0.5736, Acc=0.8067, Val Loss=0.5584, Val Acc=0.8173
+Epoch 6/10: Loss=0.5391, Acc=0.8222, Val Loss=0.5275, Val Acc=0.8248
+Epoch 7/10: Loss=0.5131, Acc=0.8327, Val Loss=0.5280, Val Acc=0.8243
+Epoch 8/10: Loss=0.4959, Acc=0.8371, Val Loss=0.5018, Val Acc=0.8348
+Epoch 9/10: Loss=0.4827, Acc=0.8437, Val Loss=0.5207, Val Acc=0.8283
+Epoch 10/10: Loss=0.4712, Acc=0.8471, Val Loss=0.4920, Val Acc=0.8355

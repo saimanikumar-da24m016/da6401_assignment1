@@ -1,6 +1,0 @@
-
-Epoch 1/5: Loss=2.3026, Acc=0.1050, Val Loss=2.3026, Val Acc=0.0948
-Epoch 2/5: Loss=2.3026, Acc=0.1092, Val Loss=2.3026, Val Acc=0.0987
-Epoch 3/5: Loss=2.3026, Acc=0.1314, Val Loss=2.3026, Val Acc=0.1095
-Epoch 4/5: Loss=2.3026, Acc=0.1056, Val Loss=2.3026, Val Acc=0.1252
-Epoch 5/5: Loss=2.3026, Acc=0.1183, Val Loss=2.3026, Val Acc=0.1417

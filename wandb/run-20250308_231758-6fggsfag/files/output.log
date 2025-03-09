@@ -1,0 +1,12 @@
+
+Run Name: momentum_relu_5_64_16
+Epoch 1/10: Loss=2.2998, Acc=0.1355, Val Loss=2.3027, Val Acc=0.0942
+Epoch 2/10: Loss=2.3026, Acc=0.0988, Val Loss=2.3027, Val Acc=0.0942
+Epoch 3/10: Loss=2.3026, Acc=0.0999, Val Loss=2.3027, Val Acc=0.0942
+Epoch 4/10: Loss=2.3026, Acc=0.1001, Val Loss=2.3027, Val Acc=0.0942
+Epoch 5/10: Loss=2.3026, Acc=0.1008, Val Loss=2.3028, Val Acc=0.0925
+Epoch 6/10: Loss=2.3026, Acc=0.0996, Val Loss=2.3028, Val Acc=0.0925
+Epoch 7/10: Loss=2.3026, Acc=0.0985, Val Loss=2.3028, Val Acc=0.0925
+Epoch 8/10: Loss=2.3026, Acc=0.0995, Val Loss=2.3028, Val Acc=0.0925
+Epoch 9/10: Loss=2.3026, Acc=0.1000, Val Loss=2.3028, Val Acc=0.0925
+Epoch 10/10: Loss=2.3026, Acc=0.1001, Val Loss=2.3028, Val Acc=0.0925

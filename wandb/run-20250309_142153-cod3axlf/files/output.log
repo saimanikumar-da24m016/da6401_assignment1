@@ -1,0 +1,12 @@
+
+Run Name: nadam_tanh_4_128_16
+Epoch 1/10: Loss=0.5537, Acc=0.8090, Val Loss=0.4316, Val Acc=0.8448
+Epoch 2/10: Loss=0.4007, Acc=0.8562, Val Loss=0.3913, Val Acc=0.8595
+Epoch 3/10: Loss=0.3689, Acc=0.8664, Val Loss=0.3875, Val Acc=0.8588
+Epoch 4/10: Loss=0.3477, Acc=0.8745, Val Loss=0.3838, Val Acc=0.8577
+Epoch 5/10: Loss=0.3338, Acc=0.8791, Val Loss=0.3418, Val Acc=0.8728
+Epoch 6/10: Loss=0.3219, Acc=0.8822, Val Loss=0.3444, Val Acc=0.8693
+Epoch 7/10: Loss=0.3115, Acc=0.8857, Val Loss=0.3437, Val Acc=0.8717
+Epoch 8/10: Loss=0.3029, Acc=0.8891, Val Loss=0.3320, Val Acc=0.8777
+Epoch 9/10: Loss=0.2957, Acc=0.8919, Val Loss=0.3447, Val Acc=0.8738
+Epoch 10/10: Loss=0.2873, Acc=0.8947, Val Loss=0.3339, Val Acc=0.8777

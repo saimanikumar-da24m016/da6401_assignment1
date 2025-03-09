@@ -1,0 +1,7 @@
+
+Run Name: nesterov_tanh_5_128_32
+Epoch 1/5: Loss=0.0299, Acc=0.5955, Val Loss=0.0217, Val Acc=0.7198
+Epoch 2/5: Loss=0.0193, Acc=0.7383, Val Loss=0.0171, Val Acc=0.7677
+Epoch 3/5: Loss=0.0163, Acc=0.7780, Val Loss=0.0151, Val Acc=0.7880
+Epoch 4/5: Loss=0.0146, Acc=0.7990, Val Loss=0.0140, Val Acc=0.8037
+Epoch 5/5: Loss=0.0136, Acc=0.8104, Val Loss=0.0132, Val Acc=0.8137

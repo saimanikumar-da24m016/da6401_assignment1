@@ -1,0 +1,6 @@
+Run Name: momentum_relu_4_32_64
+Epoch 1/5: Loss=2.3026, Acc=0.0986, Val Loss=2.3026, Val Acc=0.0925
+Epoch 2/5: Loss=2.3026, Acc=0.0989, Val Loss=2.3026, Val Acc=0.0925
+Epoch 3/5: Loss=2.3026, Acc=0.1000, Val Loss=2.3026, Val Acc=0.0925
+Epoch 4/5: Loss=2.3026, Acc=0.1005, Val Loss=2.3026, Val Acc=0.0925
+Epoch 5/5: Loss=2.3026, Acc=0.1006, Val Loss=2.3027, Val Acc=0.0925
