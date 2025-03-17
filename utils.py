@@ -17,7 +17,7 @@ def load_data(dataset="fashion_mnist"):
     else:
         raise ValueError("Unknown dataset.")
     
-    # Normalize and reshape data
+    # Normalizing and reshape the data
     X_train = X_train.reshape(X_train.shape[0], -1) / 255.0
     X_test = X_test.reshape(X_test.shape[0], -1) / 255.0
     
