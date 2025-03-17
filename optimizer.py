@@ -1,3 +1,6 @@
+import numpy as np
+
+
 class Optimizer:
     def __init__(self, params, optimizer_name, learning_rate, momentum=0.5,
                  beta=0.5, beta1=0.5, beta2=0.5, epsilon=1e-6, weight_decay=0.0):
