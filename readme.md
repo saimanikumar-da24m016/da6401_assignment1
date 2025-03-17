@@ -18,6 +18,7 @@ DA6401_Assignment1/
 │-- train.py             # Training pipeline
 │-- utils.py             # Utility functions
 │-- test_wandb.ipynb     # Experimentation and logging with Weights & Biases
+│-- q1.py                # for sample images
 │-- readme.md            # Project documentation
 ```
 
