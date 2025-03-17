@@ -1,4 +1,4 @@
-# Cell 2: Define Model Functions and NeuralNetwork Class
+import wandb
 import numpy as np
 
 # Activation functions and their derivatives

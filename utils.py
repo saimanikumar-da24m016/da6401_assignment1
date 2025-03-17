@@ -1,8 +1,8 @@
-# Cell 4: Utility Functions
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix
 from keras.datasets import fashion_mnist
+import wandb
 
 from sklearn.model_selection import train_test_split
 
@@ -109,13 +109,3 @@ def plot_conf_matrix(true_labels, predictions, classes, title="Confusion Matrix"
     plt.show()
     plt.close(fig)
 
-# def plot_conf_matrix(true_labels, predictions, class_names, title="Confusion Matrix"):
-#     cm = confusion_matrix(true_labels, predictions)
-    
-#     # Log confusion matrix directly to WandB
-#     wandb.log({"Confusion Matrix": wandb.plot.confusion_matrix(
-#         probs=None,
-#         y_true=true_labels,
-#         preds=predictions,
-#         class_names=class_names
-#     )})
