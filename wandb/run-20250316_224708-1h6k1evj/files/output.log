@@ -1,0 +1,12 @@
+
+Run Name: adam_relu_5_128_16
+Epoch 1/10: Loss=0.5236, Acc=0.8104, Val Loss=0.4333, Val Acc=0.8388
+Epoch 2/10: Loss=0.4146, Acc=0.8486, Val Loss=0.3843, Val Acc=0.8600
+Epoch 3/10: Loss=0.3831, Acc=0.8617, Val Loss=0.3860, Val Acc=0.8637
+Epoch 4/10: Loss=0.3661, Acc=0.8670, Val Loss=0.3606, Val Acc=0.8730
+Epoch 5/10: Loss=0.3557, Acc=0.8722, Val Loss=0.3679, Val Acc=0.8705
+Epoch 6/10: Loss=0.3470, Acc=0.8741, Val Loss=0.3976, Val Acc=0.8595
+Epoch 7/10: Loss=0.3390, Acc=0.8769, Val Loss=0.3681, Val Acc=0.8662
+Epoch 8/10: Loss=0.3329, Acc=0.8786, Val Loss=0.3651, Val Acc=0.8665
+Epoch 9/10: Loss=0.3294, Acc=0.8798, Val Loss=0.3584, Val Acc=0.8678
+Epoch 10/10: Loss=0.3229, Acc=0.8816, Val Loss=0.4000, Val Acc=0.8632

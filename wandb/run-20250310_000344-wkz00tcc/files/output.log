@@ -1,0 +1,7 @@
+
+Run Name: adam_tanh_5_128_64
+Epoch 1/5: Loss=0.0162, Acc=0.7737, Val Loss=0.0121, Val Acc=0.8300
+Epoch 2/5: Loss=0.0109, Acc=0.8467, Val Loss=0.0104, Val Acc=0.8493
+Epoch 3/5: Loss=0.0099, Acc=0.8603, Val Loss=0.0102, Val Acc=0.8565
+Epoch 4/5: Loss=0.0094, Acc=0.8678, Val Loss=0.0097, Val Acc=0.8657
+Epoch 5/5: Loss=0.0090, Acc=0.8735, Val Loss=0.0096, Val Acc=0.8650

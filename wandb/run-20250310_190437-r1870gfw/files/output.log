@@ -1,0 +1,12 @@
+
+Run Name: nesterov_relu_5_64_16
+Epoch 1/10: Loss=1.4815, Acc=0.5214, Val Loss=0.8601, Val Acc=0.7172
+Epoch 2/10: Loss=0.7486, Acc=0.7412, Val Loss=0.6606, Val Acc=0.7603
+Epoch 3/10: Loss=0.6142, Acc=0.7848, Val Loss=0.5719, Val Acc=0.7993
+Epoch 4/10: Loss=0.5569, Acc=0.8047, Val Loss=0.5397, Val Acc=0.8052
+Epoch 5/10: Loss=0.5233, Acc=0.8171, Val Loss=0.5087, Val Acc=0.8170
+Epoch 6/10: Loss=0.4999, Acc=0.8234, Val Loss=0.4940, Val Acc=0.8245
+Epoch 7/10: Loss=0.4826, Acc=0.8304, Val Loss=0.4896, Val Acc=0.8280
+Epoch 8/10: Loss=0.4685, Acc=0.8352, Val Loss=0.4774, Val Acc=0.8285
+Epoch 9/10: Loss=0.4554, Acc=0.8394, Val Loss=0.4700, Val Acc=0.8357
+Epoch 10/10: Loss=0.4457, Acc=0.8435, Val Loss=0.4532, Val Acc=0.8372

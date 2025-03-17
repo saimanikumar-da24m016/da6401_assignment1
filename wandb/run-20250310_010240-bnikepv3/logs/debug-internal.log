@@ -1,0 +1,406 @@
+2025-03-10 01:02:40,869 INFO    StreamThr :19816 [internal.py:wandb_internal():86] W&B internal server running at pid: 19816, started at: 2025-03-10 01:02:40.869182
+2025-03-10 01:02:40,872 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status
+2025-03-10 01:02:40,894 INFO    WriterThread:19816 [datastore.py:open_for_write():85] open: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\run-bnikepv3.wandb
+2025-03-10 01:02:40,896 DEBUG   SenderThread:19816 [sender.py:send():382] send: header
+2025-03-10 01:02:40,947 DEBUG   SenderThread:19816 [sender.py:send():382] send: run
+2025-03-10 01:02:41,879 INFO    SenderThread:19816 [dir_watcher.py:__init__():211] watching files in: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files
+2025-03-10 01:02:41,879 INFO    SenderThread:19816 [sender.py:_start_run_threads():1136] run started: bnikepv3 with start time 1741548760.868188
+2025-03-10 01:02:41,892 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: check_version
+2025-03-10 01:02:41,892 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: check_version
+2025-03-10 01:02:42,288 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: run_start
+2025-03-10 01:02:42,820 DEBUG   HandlerThread:19816 [system_info.py:__init__():32] System info init
+2025-03-10 01:02:42,820 DEBUG   HandlerThread:19816 [system_info.py:__init__():47] System info init done
+2025-03-10 01:02:42,820 INFO    HandlerThread:19816 [system_monitor.py:start():194] Starting system monitor
+2025-03-10 01:02:42,820 INFO    SystemMonitor:19816 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-03-10 01:02:42,821 INFO    HandlerThread:19816 [system_monitor.py:probe():214] Collecting system info
+2025-03-10 01:02:42,825 INFO    SystemMonitor:19816 [interfaces.py:start():190] Started cpu monitoring
+2025-03-10 01:02:42,825 INFO    SystemMonitor:19816 [interfaces.py:start():190] Started disk monitoring
+2025-03-10 01:02:42,826 INFO    SystemMonitor:19816 [interfaces.py:start():190] Started gpu monitoring
+2025-03-10 01:02:42,835 INFO    SystemMonitor:19816 [interfaces.py:start():190] Started memory monitoring
+2025-03-10 01:02:42,851 INFO    SystemMonitor:19816 [interfaces.py:start():190] Started network monitoring
+2025-03-10 01:02:42,855 DEBUG   HandlerThread:19816 [system_info.py:probe():196] Probing system
+2025-03-10 01:02:42,856 DEBUG   HandlerThread:19816 [system_info.py:_probe_git():181] Probing git
+2025-03-10 01:02:42,943 DEBUG   HandlerThread:19816 [system_info.py:_probe_git():189] Probing git done
+2025-03-10 01:02:42,943 DEBUG   HandlerThread:19816 [system_info.py:probe():244] Probing system done
+2025-03-10 01:02:42,943 DEBUG   HandlerThread:19816 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.26100-SP0', 'python': '3.9.5', 'heartbeatAt': '2025-03-09T19:32:42.855979', 'startedAt': '2025-03-09T19:32:40.836334', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'git@github.com-work:saimanikumar-da24m016/da6401_assignment1.git', 'commit': 'e828d7ed826d245b35090fa330e5d4f07dddcfac'}, 'email': 'saimanikumar67@gmail.com', 'root': 'C:/Users/D. Sai Mani Kumar/Downloads/DL/da6401_assignment1', 'host': 'LAPTOP-VRI27UL2', 'username': 'D. Sai Mani Kumar', 'executable': 'c:\\Users\\D. Sai Mani Kumar\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400.0, 'min': 0.0, 'max': 2400.0}, 'cpu_freq_per_core': [{'current': 2400.0, 'min': 0.0, 'max': 2400.0}], 'disk': {'/': {'total': 375.82519149780273, 'used': 262.7116279602051}}, 'gpu': 'NVIDIA GeForce GTX 1650 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650 Ti', 'memory_total': 4294967296}], 'memory': {'total': 7.840869903564453}}
+2025-03-10 01:02:42,943 INFO    HandlerThread:19816 [system_monitor.py:probe():224] Finished collecting system info
+2025-03-10 01:02:42,943 INFO    HandlerThread:19816 [system_monitor.py:probe():227] Publishing system info
+2025-03-10 01:02:42,943 DEBUG   HandlerThread:19816 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2025-03-10 01:02:42,945 DEBUG   HandlerThread:19816 [system_info.py:_save_pip():68] Saving pip packages done
+2025-03-10 01:02:42,946 INFO    HandlerThread:19816 [system_monitor.py:probe():229] Finished publishing system info
+2025-03-10 01:02:42,958 DEBUG   SenderThread:19816 [sender.py:send():382] send: files
+2025-03-10 01:02:42,958 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2025-03-10 01:02:42,985 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-10 01:02:42,985 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: stop_status
+2025-03-10 01:02:42,988 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-10 01:02:43,439 DEBUG   SenderThread:19816 [sender.py:send():382] send: telemetry
+2025-03-10 01:02:43,440 DEBUG   SenderThread:19816 [sender.py:send():382] send: telemetry
+2025-03-10 01:02:43,440 DEBUG   SenderThread:19816 [sender.py:send():382] send: run
+2025-03-10 01:02:43,748 INFO    SenderThread:19816 [sender.py:send_run():1010] updated run: bnikepv3
+2025-03-10 01:02:43,908 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\config.yaml
+2025-03-10 01:02:43,909 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:02:43,909 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\requirements.txt
+2025-03-10 01:02:43,909 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-metadata.json
+2025-03-10 01:02:44,002 INFO    wandb-upload_0:19816 [upload_job.py:push():131] Uploaded file C:\Users\D9110~1.SAI\AppData\Local\Temp\tmpuzoupxfvwandb\ky76i53q-wandb-metadata.json
+2025-03-10 01:02:44,896 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:02:44,896 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:02:45,920 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:02:46,779 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:02:47,300 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:02:47,300 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:02:49,687 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:02:49,688 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:02:51,838 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:02:52,093 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:02:52,093 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:02:54,505 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:02:54,505 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:02:55,859 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-10 01:02:55,862 DEBUG   SenderThread:19816 [sender.py:send():382] send: history
+2025-03-10 01:02:55,862 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: summary_record
+2025-03-10 01:02:55,869 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:02:56,075 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json
+2025-03-10 01:02:56,874 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:02:57,994 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-10 01:02:57,994 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-10 01:02:57,995 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: stop_status
+2025-03-10 01:02:58,120 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:03:01,185 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:01,185 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:02,419 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:03:03,588 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:03,588 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:05,999 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:06,000 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:07,466 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:03:08,410 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:08,410 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:08,855 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-10 01:03:08,856 DEBUG   SenderThread:19816 [sender.py:send():382] send: history
+2025-03-10 01:03:08,857 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: summary_record
+2025-03-10 01:03:08,861 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:03:09,321 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json
+2025-03-10 01:03:10,336 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:03:10,822 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:10,822 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:12,913 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:03:13,005 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-10 01:03:13,007 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-10 01:03:13,221 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: stop_status
+2025-03-10 01:03:13,225 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:13,225 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:13,388 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\config.yaml
+2025-03-10 01:03:15,624 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:15,624 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:18,560 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:03:20,514 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:20,515 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:21,491 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-10 01:03:21,492 DEBUG   SenderThread:19816 [sender.py:send():382] send: history
+2025-03-10 01:03:21,493 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: summary_record
+2025-03-10 01:03:21,497 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:03:21,512 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json
+2025-03-10 01:03:22,522 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:03:22,943 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:22,944 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:24,540 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:03:25,360 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:25,360 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:27,768 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:27,769 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:28,020 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-10 01:03:28,020 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: stop_status
+2025-03-10 01:03:28,021 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-10 01:03:30,196 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:30,199 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:30,405 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:03:32,648 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:32,649 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:35,086 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:35,087 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:35,449 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:03:37,499 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:37,499 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:39,934 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:39,935 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:40,504 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:03:41,844 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-10 01:03:41,845 DEBUG   SenderThread:19816 [sender.py:send():382] send: history
+2025-03-10 01:03:41,845 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: summary_record
+2025-03-10 01:03:41,849 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:03:41,955 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json
+2025-03-10 01:03:42,361 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:42,361 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:42,853 DEBUG   SystemMonitor:19816 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-03-10 01:03:42,855 DEBUG   SenderThread:19816 [sender.py:send():382] send: stats
+2025-03-10 01:03:43,016 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-10 01:03:43,029 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-10 01:03:43,032 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: stop_status
+2025-03-10 01:03:44,754 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:44,755 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:44,995 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:03:46,356 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:03:47,162 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:47,163 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:49,570 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:49,570 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:51,392 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:03:51,987 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:51,987 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:55,710 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-10 01:03:55,711 DEBUG   SenderThread:19816 [sender.py:send():382] send: history
+2025-03-10 01:03:55,711 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: summary_record
+2025-03-10 01:03:55,712 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:03:56,188 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json
+2025-03-10 01:03:56,188 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:03:56,713 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:03:56,900 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:56,901 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:58,023 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-10 01:03:58,054 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-10 01:03:58,055 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: stop_status
+2025-03-10 01:03:59,297 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:03:59,298 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:01,698 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:01,699 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:02,376 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:04:04,103 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:04,103 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:06,503 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:06,504 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:07,432 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:04:07,766 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-10 01:04:07,767 DEBUG   SenderThread:19816 [sender.py:send():382] send: history
+2025-03-10 01:04:07,768 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: summary_record
+2025-03-10 01:04:07,769 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:04:08,389 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json
+2025-03-10 01:04:08,390 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:04:08,933 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:08,933 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:11,361 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:11,362 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:12,816 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:04:12,866 DEBUG   SenderThread:19816 [sender.py:send():382] send: stats
+2025-03-10 01:04:13,025 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-10 01:04:13,058 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-10 01:04:13,059 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: stop_status
+2025-03-10 01:04:13,790 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:13,790 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:16,210 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:16,211 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:18,492 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:04:18,617 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:18,617 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:21,027 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:21,027 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:22,472 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-10 01:04:22,473 DEBUG   SenderThread:19816 [sender.py:send():382] send: history
+2025-03-10 01:04:22,473 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: summary_record
+2025-03-10 01:04:22,476 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:04:22,635 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json
+2025-03-10 01:04:23,436 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:23,444 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:24,482 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:04:24,667 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:04:25,845 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:25,846 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:28,031 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-10 01:04:28,064 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-10 01:04:28,065 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: stop_status
+2025-03-10 01:04:28,250 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:28,250 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:30,481 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:04:33,167 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:33,167 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:35,537 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:04:35,576 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:35,576 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:36,892 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-10 01:04:36,894 DEBUG   SenderThread:19816 [sender.py:send():382] send: history
+2025-03-10 01:04:36,894 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: summary_record
+2025-03-10 01:04:36,896 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:04:37,802 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json
+2025-03-10 01:04:37,992 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:37,993 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:38,815 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:04:40,421 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:40,421 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:40,939 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:04:42,820 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:42,820 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:42,869 DEBUG   SenderThread:19816 [sender.py:send():382] send: stats
+2025-03-10 01:04:43,055 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-10 01:04:43,061 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-10 01:04:43,062 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: stop_status
+2025-03-10 01:04:45,224 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:45,224 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:46,509 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:04:47,634 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:47,634 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:50,034 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:50,034 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:50,263 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-10 01:04:50,265 DEBUG   SenderThread:19816 [sender.py:send():382] send: history
+2025-03-10 01:04:50,266 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: summary_record
+2025-03-10 01:04:50,269 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:04:50,965 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json
+2025-03-10 01:04:52,281 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:04:52,455 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:52,455 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:52,982 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:04:54,854 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:54,854 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:57,288 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:57,288 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:57,330 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:04:58,058 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-10 01:04:58,073 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-10 01:04:58,074 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: stop_status
+2025-03-10 01:04:59,703 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:04:59,703 ERROR   gpu       :19816 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-10 01:05:01,823 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-10 01:05:01,825 DEBUG   SenderThread:19816 [sender.py:send():382] send: history
+2025-03-10 01:05:01,826 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: summary_record
+2025-03-10 01:05:01,830 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:05:01,982 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-10 01:05:01,983 DEBUG   SenderThread:19816 [sender.py:send():382] send: history
+2025-03-10 01:05:01,984 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: summary_record
+2025-03-10 01:05:01,984 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:05:01,985 DEBUG   SenderThread:19816 [sender.py:send():382] send: telemetry
+2025-03-10 01:05:01,985 DEBUG   SenderThread:19816 [sender.py:send():382] send: exit
+2025-03-10 01:05:01,985 INFO    SenderThread:19816 [sender.py:send_exit():589] handling exit code: 0
+2025-03-10 01:05:01,986 INFO    SenderThread:19816 [sender.py:send_exit():591] handling runtime: 139
+2025-03-10 01:05:01,986 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:05:01,987 INFO    SenderThread:19816 [sender.py:send_exit():597] send defer
+2025-03-10 01:05:01,987 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:01,987 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 0
+2025-03-10 01:05:01,987 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:01,987 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 0
+2025-03-10 01:05:01,987 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 1
+2025-03-10 01:05:01,988 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:01,988 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 1
+2025-03-10 01:05:01,988 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:01,988 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 1
+2025-03-10 01:05:01,988 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 2
+2025-03-10 01:05:01,988 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:01,988 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 2
+2025-03-10 01:05:01,988 INFO    HandlerThread:19816 [system_monitor.py:finish():203] Stopping system monitor
+2025-03-10 01:05:01,989 DEBUG   SystemMonitor:19816 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-03-10 01:05:01,996 DEBUG   SystemMonitor:19816 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-03-10 01:05:01,997 INFO    HandlerThread:19816 [interfaces.py:finish():202] Joined cpu monitor
+2025-03-10 01:05:01,997 INFO    HandlerThread:19816 [interfaces.py:finish():202] Joined disk monitor
+2025-03-10 01:05:02,077 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json
+2025-03-10 01:05:02,435 INFO    HandlerThread:19816 [interfaces.py:finish():202] Joined gpu monitor
+2025-03-10 01:05:02,436 INFO    HandlerThread:19816 [interfaces.py:finish():202] Joined memory monitor
+2025-03-10 01:05:02,436 INFO    HandlerThread:19816 [interfaces.py:finish():202] Joined network monitor
+2025-03-10 01:05:02,436 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:02,437 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 2
+2025-03-10 01:05:02,437 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 3
+2025-03-10 01:05:02,437 DEBUG   SenderThread:19816 [sender.py:send():382] send: stats
+2025-03-10 01:05:02,437 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:02,437 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 3
+2025-03-10 01:05:02,437 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:05:02,438 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:02,438 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 3
+2025-03-10 01:05:02,438 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 4
+2025-03-10 01:05:02,438 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:02,438 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 4
+2025-03-10 01:05:02,439 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:02,439 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 4
+2025-03-10 01:05:02,439 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 5
+2025-03-10 01:05:02,439 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:02,439 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 5
+2025-03-10 01:05:02,439 DEBUG   SenderThread:19816 [sender.py:send():382] send: summary
+2025-03-10 01:05:02,440 INFO    SenderThread:19816 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-10 01:05:02,441 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:02,441 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 5
+2025-03-10 01:05:02,441 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 6
+2025-03-10 01:05:02,441 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:02,441 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 6
+2025-03-10 01:05:02,441 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:02,441 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 6
+2025-03-10 01:05:02,446 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:05:02,742 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 7
+2025-03-10 01:05:02,742 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:02,743 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 7
+2025-03-10 01:05:02,743 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:02,743 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 7
+2025-03-10 01:05:02,986 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-10 01:05:03,080 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json
+2025-03-10 01:05:03,081 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\config.yaml
+2025-03-10 01:05:03,082 INFO    Thread-16 :19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:05:04,395 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 8
+2025-03-10 01:05:04,396 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: poll_exit
+2025-03-10 01:05:04,396 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:04,398 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 8
+2025-03-10 01:05:04,399 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:04,399 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 8
+2025-03-10 01:05:04,399 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 9
+2025-03-10 01:05:04,400 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:04,400 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 9
+2025-03-10 01:05:04,401 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:04,401 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 9
+2025-03-10 01:05:04,401 INFO    SenderThread:19816 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-03-10 01:05:05,002 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-10 01:05:05,098 INFO    SenderThread:19816 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:05:05,098 INFO    SenderThread:19816 [dir_watcher.py:finish():388] scan: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files
+2025-03-10 01:05:05,099 INFO    SenderThread:19816 [dir_watcher.py:finish():402] scan save: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\config.yaml config.yaml
+2025-03-10 01:05:05,099 INFO    SenderThread:19816 [dir_watcher.py:finish():402] scan save: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log output.log
+2025-03-10 01:05:05,102 INFO    SenderThread:19816 [dir_watcher.py:finish():402] scan save: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\requirements.txt requirements.txt
+2025-03-10 01:05:05,105 INFO    SenderThread:19816 [dir_watcher.py:finish():402] scan save: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-metadata.json wandb-metadata.json
+2025-03-10 01:05:05,105 INFO    SenderThread:19816 [dir_watcher.py:finish():402] scan save: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json wandb-summary.json
+2025-03-10 01:05:05,109 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 10
+2025-03-10 01:05:05,109 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: poll_exit
+2025-03-10 01:05:05,109 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:05,110 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 10
+2025-03-10 01:05:05,113 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:05,113 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 10
+2025-03-10 01:05:05,114 INFO    SenderThread:19816 [file_pusher.py:finish():175] shutting down file pusher
+2025-03-10 01:05:05,743 INFO    wandb-upload_1:19816 [upload_job.py:push():131] Uploaded file c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\output.log
+2025-03-10 01:05:05,873 INFO    wandb-upload_0:19816 [upload_job.py:push():131] Uploaded file c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\config.yaml
+2025-03-10 01:05:05,889 INFO    wandb-upload_3:19816 [upload_job.py:push():131] Uploaded file c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\wandb-summary.json
+2025-03-10 01:05:05,951 INFO    wandb-upload_2:19816 [upload_job.py:push():131] Uploaded file c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\files\requirements.txt
+2025-03-10 01:05:06,012 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-10 01:05:06,013 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: poll_exit
+2025-03-10 01:05:06,153 INFO    Thread-15 :19816 [sender.py:transition_state():617] send defer: 11
+2025-03-10 01:05:06,154 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:06,154 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 11
+2025-03-10 01:05:06,155 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:06,155 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 11
+2025-03-10 01:05:06,155 INFO    SenderThread:19816 [file_pusher.py:join():181] waiting for file pusher
+2025-03-10 01:05:06,155 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 12
+2025-03-10 01:05:06,155 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:06,155 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 12
+2025-03-10 01:05:06,155 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:06,155 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 12
+2025-03-10 01:05:06,156 INFO    SenderThread:19816 [file_stream.py:finish():595] file stream finish called
+2025-03-10 01:05:07,016 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-10 01:05:07,066 INFO    SenderThread:19816 [file_stream.py:finish():599] file stream finish is done
+2025-03-10 01:05:07,066 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 13
+2025-03-10 01:05:07,066 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: poll_exit
+2025-03-10 01:05:07,066 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:07,066 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 13
+2025-03-10 01:05:07,067 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:07,067 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 13
+2025-03-10 01:05:07,067 INFO    SenderThread:19816 [sender.py:transition_state():617] send defer: 14
+2025-03-10 01:05:07,067 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: defer
+2025-03-10 01:05:07,067 DEBUG   SenderThread:19816 [sender.py:send():382] send: final
+2025-03-10 01:05:07,068 INFO    HandlerThread:19816 [handler.py:handle_request_defer():172] handle defer: 14
+2025-03-10 01:05:07,068 DEBUG   SenderThread:19816 [sender.py:send():382] send: footer
+2025-03-10 01:05:07,068 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: defer
+2025-03-10 01:05:07,068 INFO    SenderThread:19816 [sender.py:send_request_defer():613] handle sender defer: 14
+2025-03-10 01:05:07,069 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-10 01:05:07,069 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: poll_exit
+2025-03-10 01:05:07,070 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-10 01:05:07,071 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: server_info
+2025-03-10 01:05:07,072 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: get_summary
+2025-03-10 01:05:07,072 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: sampled_history
+2025-03-10 01:05:07,072 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: server_info
+2025-03-10 01:05:07,073 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: job_info
+2025-03-10 01:05:07,341 DEBUG   SenderThread:19816 [sender.py:send_request():409] send_request: job_info
+2025-03-10 01:05:07,344 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: shutdown
+2025-03-10 01:05:07,344 INFO    HandlerThread:19816 [handler.py:finish():866] shutting down handler
+2025-03-10 01:05:08,076 INFO    WriterThread:19816 [datastore.py:close():294] close: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_010240-bnikepv3\run-bnikepv3.wandb
+2025-03-10 01:05:08,357 INFO    SenderThread:19816 [sender.py:finish():1548] shutting down sender
+2025-03-10 01:05:08,357 INFO    SenderThread:19816 [file_pusher.py:finish():175] shutting down file pusher
+2025-03-10 01:05:08,357 INFO    SenderThread:19816 [file_pusher.py:join():181] waiting for file pusher

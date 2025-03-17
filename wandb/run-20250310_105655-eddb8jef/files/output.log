@@ -1,0 +1,7 @@
+
+Run Name: sgd_relu_3_128_64
+Epoch 1/5: Loss=2.2873, Acc=0.1846, Val Loss=2.2438, Val Acc=0.2350
+Epoch 2/5: Loss=2.2102, Acc=0.2594, Val Loss=2.1756, Val Acc=0.2957
+Epoch 3/5: Loss=2.1473, Acc=0.3170, Val Loss=2.1145, Val Acc=0.3612
+Epoch 4/5: Loss=2.0871, Acc=0.3867, Val Loss=2.0532, Val Acc=0.4235
+Epoch 5/5: Loss=2.0246, Acc=0.4287, Val Loss=1.9882, Val Acc=0.4515

@@ -1,0 +1,122 @@
+2025-03-10 01:33:38,799 INFO    StreamThr :19816 [internal.py:wandb_internal():86] W&B internal server running at pid: 19816, started at: 2025-03-10 01:33:38.796566
+2025-03-10 01:33:38,804 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status
+2025-03-10 01:33:38,841 INFO    WriterThread:19816 [datastore.py:open_for_write():85] open: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250310_013338-bnikepv3\run-bnikepv3.wandb
+2025-03-10 01:33:38,843 DEBUG   SenderThread:19816 [sender.py:send():382] send: header
+2025-03-10 01:33:38,964 DEBUG   SenderThread:19816 [sender.py:send():382] send: run
+2025-03-10 01:33:39,145 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:33:39,811 ERROR   SenderThread:19816 [internal_api.py:execute():373] 409 response executing GraphQL.
+2025-03-10 01:33:39,811 ERROR   SenderThread:19816 [internal_api.py:execute():374] {"errors":[{"message":"run bnikepv3 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2025-03-10 01:33:41,227 ERROR   SenderThread:19816 [internal_api.py:execute():373] 409 response executing GraphQL.
+2025-03-10 01:33:41,227 ERROR   SenderThread:19816 [internal_api.py:execute():374] {"errors":[{"message":"run bnikepv3 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2025-03-10 01:33:43,001 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:33:43,565 ERROR   SenderThread:19816 [internal_api.py:execute():373] 409 response executing GraphQL.
+2025-03-10 01:33:43,566 ERROR   SenderThread:19816 [internal_api.py:execute():374] {"errors":[{"message":"run bnikepv3 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2025-03-10 01:33:43,566 INFO    SenderThread:19816 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2025-03-10 01:33:44,019 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:33:44,204 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:33:48,045 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:33:48,097 ERROR   SenderThread:19816 [internal_api.py:execute():373] 409 response executing GraphQL.
+2025-03-10 01:33:48,097 ERROR   SenderThread:19816 [internal_api.py:execute():374] {"errors":[{"message":"run bnikepv3 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2025-03-10 01:33:49,071 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:33:49,256 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:33:53,098 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:33:54,127 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:33:54,312 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:33:56,581 ERROR   SenderThread:19816 [internal_api.py:execute():373] 409 response executing GraphQL.
+2025-03-10 01:33:56,581 ERROR   SenderThread:19816 [internal_api.py:execute():374] {"errors":[{"message":"run bnikepv3 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2025-03-10 01:33:58,156 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:33:59,181 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:33:59,372 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:03,213 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:04,245 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:34:04,431 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:08,275 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:09,301 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:34:09,488 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:13,330 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:13,661 ERROR   SenderThread:19816 [internal_api.py:execute():373] 409 response executing GraphQL.
+2025-03-10 01:34:13,661 ERROR   SenderThread:19816 [internal_api.py:execute():374] {"errors":[{"message":"run bnikepv3 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2025-03-10 01:34:14,359 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:34:14,544 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:18,387 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:19,416 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:34:19,602 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:23,450 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:24,478 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:34:24,662 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:28,484 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:29,529 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:34:29,700 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:33,541 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:34,585 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:34:34,753 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:38,592 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:39,634 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:34:39,805 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:43,644 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:44,691 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:34:44,860 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:46,727 ERROR   SenderThread:19816 [internal_api.py:execute():373] 409 response executing GraphQL.
+2025-03-10 01:34:46,728 ERROR   SenderThread:19816 [internal_api.py:execute():374] {"errors":[{"message":"run bnikepv3 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2025-03-10 01:34:48,691 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:49,754 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:34:49,924 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:53,749 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:54,809 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:34:54,978 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:58,793 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:34:59,856 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:35:00,023 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:03,850 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:04,903 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-10 01:35:05,074 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:08,904 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:08,952 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: cancel
+2025-03-10 01:35:08,953 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: cancel
+2025-03-10 01:35:08,954 DEBUG   SenderThread:19816 [sender.py:send():391] Record cancelled: run
+2025-03-10 01:35:08,956 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:10,128 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:13,938 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:14,001 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:15,170 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:18,994 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:19,056 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:20,215 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:24,021 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:24,083 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:25,245 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:29,064 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:29,143 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:30,292 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:34,107 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:34,199 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:35,338 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:39,146 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:39,254 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:40,388 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:44,187 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:44,295 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:45,425 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:49,228 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:49,338 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:50,473 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:54,277 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:54,385 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:55,520 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:59,332 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:35:59,429 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report
+2025-03-10 01:36:00,566 DEBUG   HandlerThread:19816 [handler.py:handle_request():146] handle_request: status_report

@@ -1,0 +1,14 @@
+
+Starting run: corr_adam_relu_5_64_64
+Epoch 1/10: Loss=0.5808, Acc=0.7937, Val Loss=0.4220, Val Acc=0.8520
+Epoch 2/10: Loss=0.3998, Acc=0.8561, Val Loss=0.3952, Val Acc=0.8580
+Epoch 3/10: Loss=0.3676, Acc=0.8663, Val Loss=0.3896, Val Acc=0.8555
+Epoch 4/10: Loss=0.3457, Acc=0.8739, Val Loss=0.3744, Val Acc=0.8635
+Epoch 5/10: Loss=0.3349, Acc=0.8774, Val Loss=0.3488, Val Acc=0.8680
+Epoch 6/10: Loss=0.3222, Acc=0.8829, Val Loss=0.3599, Val Acc=0.8692
+Epoch 7/10: Loss=0.3119, Acc=0.8855, Val Loss=0.3430, Val Acc=0.8770
+Epoch 8/10: Loss=0.3054, Acc=0.8871, Val Loss=0.3336, Val Acc=0.8728
+Epoch 9/10: Loss=0.2986, Acc=0.8890, Val Loss=0.3538, Val Acc=0.8703
+Epoch 10/10: Loss=0.2936, Acc=0.8911, Val Loss=0.3193, Val Acc=0.8833
+Test Accuracy: 0.8772
+Test Accuracy for corr_adam_relu_5_64_64: 87.72%

@@ -1,0 +1,14 @@
+
+Starting run: new_corr_nadam_tanh_3_64_32_full
+Epoch 1/10: Loss=0.4743, Acc=0.8294
+Epoch 2/10: Loss=0.3724, Acc=0.8640
+Epoch 3/10: Loss=0.3473, Acc=0.8744
+Epoch 4/10: Loss=0.3357, Acc=0.8778
+Epoch 5/10: Loss=0.3227, Acc=0.8818
+Epoch 6/10: Loss=0.3155, Acc=0.8839
+Epoch 7/10: Loss=0.3112, Acc=0.8864
+Epoch 8/10: Loss=0.3064, Acc=0.8869
+Epoch 9/10: Loss=0.3002, Acc=0.8894
+Epoch 10/10: Loss=0.2980, Acc=0.8904
+Test Accuracy: 0.8571
+Test Accuracy for new_corr_nadam_tanh_3_64_32_full: 85.71%

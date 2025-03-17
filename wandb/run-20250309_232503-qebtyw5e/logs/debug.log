@@ -29,3 +29,13 @@ config: {}
 2025-03-09 23:25:07,453 INFO    Thread-217:12872 [wandb_run.py:_redirect():2153] Wrapping output streams.
 2025-03-09 23:25:07,454 INFO    Thread-217:12872 [wandb_run.py:_redirect():2178] Redirects installed.
 2025-03-09 23:25:07,455 INFO    Thread-217:12872 [wandb_init.py:init():841] run started, returning control to user process
+2025-03-09 23:28:14,343 INFO    Thread-217:12872 [wandb_run.py:_finish():1962] finishing run da24m016-indian-institute-of-technology-madras/DL_Assignment_01/qebtyw5e
+2025-03-09 23:28:14,344 INFO    Thread-217:12872 [jupyter.py:save_history():445] not saving jupyter history
+2025-03-09 23:28:14,344 INFO    Thread-217:12872 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2025-03-09 23:28:14,345 INFO    Thread-217:12872 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2025-03-09 23:28:14,345 INFO    Thread-217:12872 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2025-03-09 23:28:14,346 INFO    Thread-217:12872 [wandb_run.py:_restore():2185] restore
+2025-03-09 23:28:14,346 INFO    Thread-217:12872 [wandb_run.py:_restore():2191] restore done
+2025-03-09 23:28:21,384 INFO    Thread-217:12872 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2025-03-09 23:28:21,386 INFO    Thread-217:12872 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2025-03-09 23:28:21,413 INFO    Thread-217:12872 [wandb_run.py:_footer_sync_info():3796] logging synced files

@@ -1,0 +1,14 @@
+
+Starting run: corr_nadam_relu_5_64_32
+Epoch 1/10: Loss=0.5274, Acc=0.8113, Val Loss=0.4245, Val Acc=0.8433
+Epoch 2/10: Loss=0.3891, Acc=0.8576, Val Loss=0.4497, Val Acc=0.8378
+Epoch 3/10: Loss=0.3607, Acc=0.8691, Val Loss=0.3731, Val Acc=0.8643
+Epoch 4/10: Loss=0.3425, Acc=0.8772, Val Loss=0.3567, Val Acc=0.8695
+Epoch 5/10: Loss=0.3282, Acc=0.8801, Val Loss=0.3637, Val Acc=0.8685
+Epoch 6/10: Loss=0.3203, Acc=0.8822, Val Loss=0.3518, Val Acc=0.8705
+Epoch 7/10: Loss=0.3126, Acc=0.8860, Val Loss=0.3600, Val Acc=0.8715
+Epoch 8/10: Loss=0.3059, Acc=0.8866, Val Loss=0.3351, Val Acc=0.8782
+Epoch 9/10: Loss=0.3022, Acc=0.8887, Val Loss=0.3632, Val Acc=0.8653
+Epoch 10/10: Loss=0.2958, Acc=0.8897, Val Loss=0.3573, Val Acc=0.8710
+Test Accuracy: 0.8599
+Test Accuracy for corr_nadam_relu_5_64_32: 85.99%

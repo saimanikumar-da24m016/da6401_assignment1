@@ -8,3 +8,5 @@ Epoch 5/10: Loss=0.0087, Acc=0.8783, Val Loss=0.0091, Val Acc=0.8755
 Epoch 6/10: Loss=0.0083, Acc=0.8847, Val Loss=0.0092, Val Acc=0.8732
 Epoch 7/10: Loss=0.0080, Acc=0.8880, Val Loss=0.0087, Val Acc=0.8813
 Epoch 8/10: Loss=0.0078, Acc=0.8907, Val Loss=0.0089, Val Acc=0.8737
+Epoch 9/10: Loss=0.0075, Acc=0.8942, Val Loss=0.0084, Val Acc=0.8825
+Epoch 10/10: Loss=0.0073, Acc=0.8983, Val Loss=0.0085, Val Acc=0.8825

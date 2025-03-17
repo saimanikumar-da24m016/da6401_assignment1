@@ -1,0 +1,14 @@
+
+Starting run: corr_adam_tanh_3_128_32
+Epoch 1/10: Loss=0.4860, Acc=0.8234, Val Loss=0.4235, Val Acc=0.8433
+Epoch 2/10: Loss=0.3954, Acc=0.8542, Val Loss=0.3870, Val Acc=0.8587
+Epoch 3/10: Loss=0.3669, Acc=0.8639, Val Loss=0.3736, Val Acc=0.8555
+Epoch 4/10: Loss=0.3528, Acc=0.8695, Val Loss=0.3662, Val Acc=0.8638
+Epoch 5/10: Loss=0.3437, Acc=0.8728, Val Loss=0.3638, Val Acc=0.8658
+Epoch 6/10: Loss=0.3393, Acc=0.8738, Val Loss=0.3685, Val Acc=0.8643
+Epoch 7/10: Loss=0.3294, Acc=0.8792, Val Loss=0.3507, Val Acc=0.8723
+Epoch 8/10: Loss=0.3244, Acc=0.8784, Val Loss=0.3383, Val Acc=0.8738
+Epoch 9/10: Loss=0.3218, Acc=0.8808, Val Loss=0.3587, Val Acc=0.8678
+Epoch 10/10: Loss=0.3182, Acc=0.8826, Val Loss=0.3512, Val Acc=0.8737
+Test Accuracy: 0.8650
+Test Accuracy for corr_adam_tanh_3_128_32: 86.50%

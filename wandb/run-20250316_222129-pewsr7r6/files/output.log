@@ -1,0 +1,12 @@
+
+Run Name: nadam_relu_3_128_16
+Epoch 1/10: Loss=0.4878, Acc=0.8241, Val Loss=0.4001, Val Acc=0.8515
+Epoch 2/10: Loss=0.3855, Acc=0.8591, Val Loss=0.3841, Val Acc=0.8617
+Epoch 3/10: Loss=0.3606, Acc=0.8681, Val Loss=0.3639, Val Acc=0.8660
+Epoch 4/10: Loss=0.3453, Acc=0.8745, Val Loss=0.3433, Val Acc=0.8730
+Epoch 5/10: Loss=0.3367, Acc=0.8760, Val Loss=0.4242, Val Acc=0.8525
+Epoch 6/10: Loss=0.3292, Acc=0.8797, Val Loss=0.3437, Val Acc=0.8758
+Epoch 7/10: Loss=0.3215, Acc=0.8812, Val Loss=0.3573, Val Acc=0.8680
+Epoch 8/10: Loss=0.3155, Acc=0.8842, Val Loss=0.3894, Val Acc=0.8553
+Epoch 9/10: Loss=0.3102, Acc=0.8861, Val Loss=0.3409, Val Acc=0.8780
+Epoch 10/10: Loss=0.3092, Acc=0.8856, Val Loss=0.3514, Val Acc=0.8728

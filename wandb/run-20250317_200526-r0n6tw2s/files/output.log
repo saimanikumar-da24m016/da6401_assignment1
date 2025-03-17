@@ -1,0 +1,13 @@
+
+Epoch 1/10: Loss=0.0239, Acc=0.8294, Val Loss=0.0204, Val Acc=0.8585
+Epoch 2/10: Loss=0.0190, Acc=0.8656, Val Loss=0.0184, Val Acc=0.8705
+Epoch 3/10: Loss=0.0175, Acc=0.8777, Val Loss=0.0177, Val Acc=0.8775
+Epoch 4/10: Loss=0.0166, Acc=0.8846, Val Loss=0.0174, Val Acc=0.8797
+Epoch 5/10: Loss=0.0159, Acc=0.8887, Val Loss=0.0170, Val Acc=0.8830
+Epoch 6/10: Loss=0.0153, Acc=0.8924, Val Loss=0.0178, Val Acc=0.8732
+Epoch 7/10: Loss=0.0149, Acc=0.8957, Val Loss=0.0164, Val Acc=0.8890
+Epoch 8/10: Loss=0.0146, Acc=0.8989, Val Loss=0.0172, Val Acc=0.8770
+Epoch 9/10: Loss=0.0143, Acc=0.8999, Val Loss=0.0163, Val Acc=0.8858
+Epoch 10/10: Loss=0.0139, Acc=0.9026, Val Loss=0.0166, Val Acc=0.8848
+Test Accuracy: 0.8788
+Test Accuracy: 87.88%

@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.26100-SP0",
+    "python": "3.9.5",
+    "heartbeatAt": "2025-03-16T14:41:08.455425",
+    "startedAt": "2025-03-16T14:41:05.500593",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "git@github.com-work:saimanikumar-da24m016/da6401_assignment1.git",
+        "commit": "e828d7ed826d245b35090fa330e5d4f07dddcfac"
+    },
+    "email": "saimanikumar67@gmail.com",
+    "root": "C:/Users/D. Sai Mani Kumar/Downloads/DL/da6401_assignment1",
+    "host": "LAPTOP-VRI27UL2",
+    "username": "D. Sai Mani Kumar",
+    "executable": "c:\\Users\\D. Sai Mani Kumar\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400.0,
+        "min": 0.0,
+        "max": 2400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 2400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 375.82519149780273,
+            "used": 272.0347023010254
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.840869903564453
+    }
+}

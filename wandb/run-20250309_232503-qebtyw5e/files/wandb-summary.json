@@ -1,1 +1,1 @@
-{"epoch": 9, "loss": 0.007499307336180556, "accuracy": 0.8942279193835211, "val_loss": 0.008408686475800948, "val_accuracy": 0.8825, "_timestamp": 1741543073.5491576, "_runtime": 169.8305926322937, "_step": 8}
+{"epoch": 10, "loss": 0.007308805828148619, "accuracy": 0.8983032009484292, "val_loss": 0.008530889803323964, "val_accuracy": 0.8825, "_timestamp": 1741543094.3427722, "_runtime": 190.6242072582245, "_step": 10, "final_val_loss": 0.008530889803323964, "final_val_accuracy": 0.8825, "_wandb": {"runtime": 188}}

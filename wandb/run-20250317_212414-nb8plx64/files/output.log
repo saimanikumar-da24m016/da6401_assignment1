@@ -1,0 +1,14 @@
+
+Starting run: mnist_adam_relu_5_128_64
+Epoch 1/10: Loss=0.2783, Acc=0.9153, Val Loss=0.1459, Val Acc=0.9552
+Epoch 2/10: Loss=0.1160, Acc=0.9649, Val Loss=0.1271, Val Acc=0.9615
+Epoch 3/10: Loss=0.0835, Acc=0.9747, Val Loss=0.0991, Val Acc=0.9700
+Epoch 4/10: Loss=0.0679, Acc=0.9796, Val Loss=0.0918, Val Acc=0.9732
+Epoch 5/10: Loss=0.0592, Acc=0.9810, Val Loss=0.0968, Val Acc=0.9730
+Epoch 6/10: Loss=0.0465, Acc=0.9857, Val Loss=0.0973, Val Acc=0.9738
+Epoch 7/10: Loss=0.0392, Acc=0.9877, Val Loss=0.1054, Val Acc=0.9722
+Epoch 8/10: Loss=0.0384, Acc=0.9877, Val Loss=0.1021, Val Acc=0.9740
+Epoch 9/10: Loss=0.0313, Acc=0.9899, Val Loss=0.0929, Val Acc=0.9777
+Epoch 10/10: Loss=0.0317, Acc=0.9900, Val Loss=0.0899, Val Acc=0.9758
+Test Accuracy: 0.9775
+Test Accuracy for mnist_adam_relu_5_128_64: 97.75%

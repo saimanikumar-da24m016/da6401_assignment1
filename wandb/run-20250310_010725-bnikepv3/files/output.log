@@ -1,0 +1,19 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'learning_rate' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'batch_size' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'epochs' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'activation' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'weight_init' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'loss' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'weight_decay' was locked by 'sweep' (ignored update).
+Epoch 1/10: Loss=0.0151, Acc=0.7918, Val Loss=0.0114, Val Acc=0.8392
+Epoch 2/10: Loss=0.0107, Acc=0.8488, Val Loss=0.0103, Val Acc=0.8530
+Epoch 3/10: Loss=0.0098, Acc=0.8616, Val Loss=0.0098, Val Acc=0.8593
+Epoch 4/10: Loss=0.0093, Acc=0.8696, Val Loss=0.0096, Val Acc=0.8628
+Epoch 5/10: Loss=0.0089, Acc=0.8759, Val Loss=0.0095, Val Acc=0.8660
+Epoch 6/10: Loss=0.0086, Acc=0.8790, Val Loss=0.0092, Val Acc=0.8708
+Epoch 7/10: Loss=0.0083, Acc=0.8831, Val Loss=0.0088, Val Acc=0.8767
+Epoch 8/10: Loss=0.0081, Acc=0.8877, Val Loss=0.0089, Val Acc=0.8758
+Epoch 9/10: Loss=0.0078, Acc=0.8907, Val Loss=0.0086, Val Acc=0.8785
+Epoch 10/10: Loss=0.0076, Acc=0.8936, Val Loss=0.0086, Val Acc=0.8797
+Test Accuracy: 0.8723
+Test Accuracy: 87.23%

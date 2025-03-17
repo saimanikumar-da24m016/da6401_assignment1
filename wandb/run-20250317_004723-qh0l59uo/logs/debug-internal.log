@@ -1,0 +1,576 @@
+2025-03-17 00:47:23,124 INFO    StreamThr :30328 [internal.py:wandb_internal():86] W&B internal server running at pid: 30328, started at: 2025-03-17 00:47:23.122960
+2025-03-17 00:47:23,128 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status
+2025-03-17 00:47:23,175 INFO    WriterThread:30328 [datastore.py:open_for_write():85] open: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\run-qh0l59uo.wandb
+2025-03-17 00:47:23,176 DEBUG   SenderThread:30328 [sender.py:send():382] send: header
+2025-03-17 00:47:23,243 DEBUG   SenderThread:30328 [sender.py:send():382] send: run
+2025-03-17 00:47:23,861 INFO    SenderThread:30328 [dir_watcher.py:__init__():211] watching files in: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files
+2025-03-17 00:47:23,862 INFO    SenderThread:30328 [sender.py:_start_run_threads():1136] run started: qh0l59uo with start time 1742152643.122959
+2025-03-17 00:47:23,887 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: check_version
+2025-03-17 00:47:23,887 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: check_version
+2025-03-17 00:47:23,970 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: run_start
+2025-03-17 00:47:23,992 DEBUG   HandlerThread:30328 [system_info.py:__init__():32] System info init
+2025-03-17 00:47:23,992 DEBUG   HandlerThread:30328 [system_info.py:__init__():47] System info init done
+2025-03-17 00:47:23,992 INFO    HandlerThread:30328 [system_monitor.py:start():194] Starting system monitor
+2025-03-17 00:47:23,992 INFO    SystemMonitor:30328 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-03-17 00:47:23,993 INFO    HandlerThread:30328 [system_monitor.py:probe():214] Collecting system info
+2025-03-17 00:47:24,006 INFO    SystemMonitor:30328 [interfaces.py:start():190] Started cpu monitoring
+2025-03-17 00:47:24,007 INFO    SystemMonitor:30328 [interfaces.py:start():190] Started disk monitoring
+2025-03-17 00:47:24,021 DEBUG   HandlerThread:30328 [system_info.py:probe():196] Probing system
+2025-03-17 00:47:24,022 INFO    SystemMonitor:30328 [interfaces.py:start():190] Started gpu monitoring
+2025-03-17 00:47:24,038 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:24,038 INFO    SystemMonitor:30328 [interfaces.py:start():190] Started memory monitoring
+2025-03-17 00:47:24,039 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:24,057 INFO    SystemMonitor:30328 [interfaces.py:start():190] Started network monitoring
+2025-03-17 00:47:24,058 DEBUG   HandlerThread:30328 [system_info.py:_probe_git():181] Probing git
+2025-03-17 00:47:24,198 DEBUG   HandlerThread:30328 [system_info.py:_probe_git():189] Probing git done
+2025-03-17 00:47:24,198 DEBUG   HandlerThread:30328 [system_info.py:probe():244] Probing system done
+2025-03-17 00:47:24,199 DEBUG   HandlerThread:30328 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.26100-SP0', 'python': '3.9.5', 'heartbeatAt': '2025-03-16T19:17:24.021130', 'startedAt': '2025-03-16T19:17:23.089964', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'git@github.com-work:saimanikumar-da24m016/da6401_assignment1.git', 'commit': 'e828d7ed826d245b35090fa330e5d4f07dddcfac'}, 'email': 'saimanikumar67@gmail.com', 'root': 'C:/Users/D. Sai Mani Kumar/Downloads/DL/da6401_assignment1', 'host': 'LAPTOP-VRI27UL2', 'username': 'D. Sai Mani Kumar', 'executable': 'c:\\Users\\D. Sai Mani Kumar\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400.0, 'min': 0.0, 'max': 2400.0}, 'cpu_freq_per_core': [{'current': 2400.0, 'min': 0.0, 'max': 2400.0}], 'disk': {'/': {'total': 375.82519149780273, 'used': 272.62663650512695}}, 'gpu': 'NVIDIA GeForce GTX 1650 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650 Ti', 'memory_total': 4294967296}], 'memory': {'total': 7.840869903564453}}
+2025-03-17 00:47:24,199 INFO    HandlerThread:30328 [system_monitor.py:probe():224] Finished collecting system info
+2025-03-17 00:47:24,199 INFO    HandlerThread:30328 [system_monitor.py:probe():227] Publishing system info
+2025-03-17 00:47:24,199 DEBUG   HandlerThread:30328 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2025-03-17 00:47:24,202 DEBUG   HandlerThread:30328 [system_info.py:_save_pip():68] Saving pip packages done
+2025-03-17 00:47:24,204 INFO    HandlerThread:30328 [system_monitor.py:probe():229] Finished publishing system info
+2025-03-17 00:47:24,204 DEBUG   SenderThread:30328 [sender.py:send():382] send: files
+2025-03-17 00:47:24,205 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2025-03-17 00:47:24,238 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:47:24,239 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:47:24,241 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:47:24,630 DEBUG   SenderThread:30328 [sender.py:send():382] send: telemetry
+2025-03-17 00:47:24,756 DEBUG   SenderThread:30328 [sender.py:send():382] send: telemetry
+2025-03-17 00:47:24,757 DEBUG   SenderThread:30328 [sender.py:send():382] send: config
+2025-03-17 00:47:24,757 DEBUG   SenderThread:30328 [sender.py:send():382] send: config
+2025-03-17 00:47:24,757 DEBUG   SenderThread:30328 [sender.py:send():382] send: config
+2025-03-17 00:47:24,757 DEBUG   SenderThread:30328 [sender.py:send():382] send: config
+2025-03-17 00:47:24,757 DEBUG   SenderThread:30328 [sender.py:send():382] send: config
+2025-03-17 00:47:24,758 DEBUG   SenderThread:30328 [sender.py:send():382] send: config
+2025-03-17 00:47:24,758 DEBUG   SenderThread:30328 [sender.py:send():382] send: config
+2025-03-17 00:47:24,758 DEBUG   SenderThread:30328 [sender.py:send():382] send: config
+2025-03-17 00:47:24,758 DEBUG   SenderThread:30328 [sender.py:send():382] send: config
+2025-03-17 00:47:24,875 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-metadata.json
+2025-03-17 00:47:24,876 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\requirements.txt
+2025-03-17 00:47:24,876 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:47:25,244 INFO    wandb-upload_0:30328 [upload_job.py:push():131] Uploaded file C:\Users\D9110~1.SAI\AppData\Local\Temp\tmp8rpds8g7wandb\3mfr6hcj-wandb-metadata.json
+2025-03-17 00:47:26,891 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:47:26,919 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:26,919 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:28,819 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:47:29,323 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:29,323 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:31,730 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:31,731 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:33,857 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:47:34,139 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:34,139 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:36,548 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:36,549 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:38,885 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:47:38,947 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:38,948 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:39,248 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:47:39,249 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:47:39,249 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:47:41,367 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:41,367 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:43,764 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:43,765 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:44,600 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:47:45,643 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-17 00:47:45,649 DEBUG   SenderThread:30328 [sender.py:send():382] send: history
+2025-03-17 00:47:45,650 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: summary_record
+2025-03-17 00:47:45,653 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:47:46,123 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json
+2025-03-17 00:47:46,198 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:46,200 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:48,144 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:47:48,649 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:48,650 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:49,687 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:47:51,117 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:51,118 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:53,576 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:53,576 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:54,268 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:47:54,268 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:47:54,269 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:47:55,641 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:47:55,995 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:55,997 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:56,246 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\config.yaml
+2025-03-17 00:47:58,387 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:47:58,387 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:00,974 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:48:03,259 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:03,260 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:05,662 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:05,663 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:06,025 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:48:07,247 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-17 00:48:07,248 DEBUG   SenderThread:30328 [sender.py:send():382] send: history
+2025-03-17 00:48:07,248 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: summary_record
+2025-03-17 00:48:07,250 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:48:07,356 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json
+2025-03-17 00:48:08,063 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:08,064 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:08,365 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:48:09,272 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:48:09,273 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:48:09,273 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:48:10,488 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:10,489 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:11,622 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:48:12,913 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:12,913 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:15,314 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:15,314 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:16,659 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:48:17,707 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:17,707 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:20,097 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:20,098 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:21,725 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:48:22,500 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:22,500 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:24,063 DEBUG   SystemMonitor:30328 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-03-17 00:48:24,065 DEBUG   SenderThread:30328 [sender.py:send():382] send: stats
+2025-03-17 00:48:24,285 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:48:24,301 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:48:24,302 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:48:24,422 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-17 00:48:24,648 DEBUG   SenderThread:30328 [sender.py:send():382] send: history
+2025-03-17 00:48:24,649 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: summary_record
+2025-03-17 00:48:24,650 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:48:24,882 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:24,883 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:25,547 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json
+2025-03-17 00:48:26,561 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:48:27,279 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:27,279 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:27,674 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:48:29,681 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:29,682 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:32,085 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:32,085 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:32,698 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:48:34,488 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:34,488 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:37,763 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:48:39,291 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:48:39,305 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:48:39,306 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:48:39,385 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:39,385 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:41,247 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-17 00:48:41,248 DEBUG   SenderThread:30328 [sender.py:send():382] send: history
+2025-03-17 00:48:41,249 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: summary_record
+2025-03-17 00:48:41,250 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:48:41,699 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json
+2025-03-17 00:48:41,776 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:41,778 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:42,711 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:48:43,262 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:48:44,174 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:44,175 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:46,569 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:46,569 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:48,294 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:48:48,961 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:48,962 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:51,383 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:51,384 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:53,338 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:48:53,802 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:53,802 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:54,073 DEBUG   SenderThread:30328 [sender.py:send():382] send: stats
+2025-03-17 00:48:54,308 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:48:54,324 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:48:54,324 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:48:56,205 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:56,205 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:58,594 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:58,595 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:48:58,641 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:48:59,537 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-17 00:48:59,537 DEBUG   SenderThread:30328 [sender.py:send():382] send: history
+2025-03-17 00:48:59,538 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: summary_record
+2025-03-17 00:48:59,539 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:48:59,878 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json
+2025-03-17 00:49:00,882 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:49:00,991 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:00,991 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:03,391 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:03,391 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:04,587 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:49:05,786 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:05,786 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:08,172 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:08,172 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:09,314 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:49:09,330 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:49:09,331 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:49:09,706 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:49:10,559 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:10,561 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:14,733 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:49:15,465 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:15,465 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:17,853 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:17,854 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:19,795 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:49:20,247 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:20,248 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:22,641 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:22,641 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:23,649 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-17 00:49:23,650 DEBUG   SenderThread:30328 [sender.py:send():382] send: history
+2025-03-17 00:49:23,650 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: summary_record
+2025-03-17 00:49:23,653 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:49:24,075 DEBUG   SenderThread:30328 [sender.py:send():382] send: stats
+2025-03-17 00:49:24,240 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json
+2025-03-17 00:49:24,240 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:49:24,328 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:49:24,344 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:49:24,345 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:49:25,028 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:25,029 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:25,739 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:49:27,433 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:27,434 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:29,830 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:29,830 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:30,795 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:49:32,215 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:32,215 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:34,613 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:34,613 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:35,857 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:49:37,008 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:37,009 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:39,342 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:49:39,356 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:49:39,367 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:49:39,452 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:39,453 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:41,736 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:49:41,895 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:41,896 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:44,328 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:44,330 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:46,760 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:46,762 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:46,869 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:49:51,679 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:51,679 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:51,928 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:49:54,073 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:54,073 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:54,089 DEBUG   SenderThread:30328 [sender.py:send():382] send: stats
+2025-03-17 00:49:54,358 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:49:54,373 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:49:54,374 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:49:56,474 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:56,475 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:57,738 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:49:58,877 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:49:58,879 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:01,305 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:01,306 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:02,768 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:50:03,764 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:03,766 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:05,651 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-17 00:50:05,652 DEBUG   SenderThread:30328 [sender.py:send():382] send: history
+2025-03-17 00:50:05,652 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: summary_record
+2025-03-17 00:50:05,655 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:50:06,202 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json
+2025-03-17 00:50:06,203 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:50:06,216 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:06,217 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:08,640 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:08,641 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:08,686 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:50:09,364 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:50:09,396 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:50:09,397 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:50:11,067 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:11,068 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:13,497 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:13,498 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:13,713 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:50:15,895 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:15,895 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:18,298 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:18,298 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:18,740 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:50:20,718 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:20,719 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:23,149 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:23,149 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:23,778 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:50:24,096 DEBUG   SenderThread:30328 [sender.py:send():382] send: stats
+2025-03-17 00:50:24,362 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:50:24,409 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:50:24,411 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:50:28,151 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:28,151 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:28,807 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:50:30,558 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:30,559 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:32,949 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:32,950 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:33,850 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:50:35,379 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:35,379 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:37,777 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:37,778 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:38,879 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:50:39,352 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:50:39,413 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:50:39,413 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:50:40,184 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:40,184 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:42,581 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:42,582 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:44,814 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:50:44,988 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:44,989 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:45,441 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-17 00:50:45,443 DEBUG   SenderThread:30328 [sender.py:send():382] send: history
+2025-03-17 00:50:45,443 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: summary_record
+2025-03-17 00:50:45,446 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:50:46,047 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json
+2025-03-17 00:50:47,065 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:50:47,409 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:47,411 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:49,842 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:49,843 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:50,499 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:50:52,260 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:52,262 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:54,100 DEBUG   SenderThread:30328 [sender.py:send():382] send: stats
+2025-03-17 00:50:54,362 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:50:54,439 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:50:54,440 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:50:54,677 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:54,677 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:55,778 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:50:57,082 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:57,082 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:59,471 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:50:59,471 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:00,809 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:51:04,373 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:04,373 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:05,850 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:51:06,764 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:06,764 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:09,171 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:09,171 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:09,360 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:51:09,438 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:51:09,439 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:51:11,579 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:11,579 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:11,784 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:51:13,972 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:13,973 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:16,375 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:16,376 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:16,819 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:51:18,767 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:18,767 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:18,864 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-17 00:51:18,866 DEBUG   SenderThread:30328 [sender.py:send():382] send: history
+2025-03-17 00:51:18,866 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: summary_record
+2025-03-17 00:51:18,868 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:51:19,587 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json
+2025-03-17 00:51:20,683 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:51:21,189 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:21,189 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:21,901 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:51:23,597 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:23,597 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:24,102 DEBUG   SenderThread:30328 [sender.py:send():382] send: stats
+2025-03-17 00:51:24,369 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:51:24,447 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:51:24,447 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:51:25,988 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:25,988 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:27,836 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:51:28,387 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:28,388 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:30,789 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:30,789 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:32,864 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:51:33,182 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:33,182 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:35,579 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:35,579 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:37,912 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:51:39,380 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:51:39,459 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 00:51:39,460 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: stop_status
+2025-03-17 00:51:40,435 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:40,435 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:42,832 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:42,832 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:43,826 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:51:45,228 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:45,228 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:47,620 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:47,621 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:48,861 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:51:48,958 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-17 00:51:48,960 DEBUG   SenderThread:30328 [sender.py:send():382] send: history
+2025-03-17 00:51:48,960 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: summary_record
+2025-03-17 00:51:48,964 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:51:49,225 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json
+2025-03-17 00:51:50,026 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:50,026 ERROR   gpu       :30328 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2025-03-17 00:51:50,319 DEBUG   SenderThread:30328 [sender.py:send():382] send: files
+2025-03-17 00:51:50,320 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file media\images\Confusion Matrix_10_19d533a4825cf1f169e0.png with policy now
+2025-03-17 00:51:50,322 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-17 00:51:50,325 DEBUG   SenderThread:30328 [sender.py:send():382] send: history
+2025-03-17 00:51:50,325 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: summary_record
+2025-03-17 00:51:50,326 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:51:50,588 DEBUG   SenderThread:30328 [sender.py:send():382] send: telemetry
+2025-03-17 00:51:50,594 DEBUG   SenderThread:30328 [sender.py:send():382] send: exit
+2025-03-17 00:51:50,594 INFO    SenderThread:30328 [sender.py:send_exit():589] handling exit code: 0
+2025-03-17 00:51:50,594 INFO    SenderThread:30328 [sender.py:send_exit():591] handling runtime: 266
+2025-03-17 00:51:50,596 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:51:50,596 INFO    SenderThread:30328 [sender.py:send_exit():597] send defer
+2025-03-17 00:51:50,597 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:50,597 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 0
+2025-03-17 00:51:50,598 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:50,598 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 0
+2025-03-17 00:51:50,598 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 1
+2025-03-17 00:51:50,598 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:50,598 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 1
+2025-03-17 00:51:50,598 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:50,598 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 1
+2025-03-17 00:51:50,599 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 2
+2025-03-17 00:51:50,599 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:50,599 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 2
+2025-03-17 00:51:50,599 INFO    HandlerThread:30328 [system_monitor.py:finish():203] Stopping system monitor
+2025-03-17 00:51:50,599 DEBUG   SystemMonitor:30328 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-03-17 00:51:50,599 INFO    HandlerThread:30328 [interfaces.py:finish():202] Joined cpu monitor
+2025-03-17 00:51:50,612 DEBUG   SystemMonitor:30328 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-03-17 00:51:50,615 INFO    HandlerThread:30328 [interfaces.py:finish():202] Joined disk monitor
+2025-03-17 00:51:50,720 INFO    HandlerThread:30328 [interfaces.py:finish():202] Joined gpu monitor
+2025-03-17 00:51:50,720 INFO    HandlerThread:30328 [interfaces.py:finish():202] Joined memory monitor
+2025-03-17 00:51:50,720 INFO    HandlerThread:30328 [interfaces.py:finish():202] Joined network monitor
+2025-03-17 00:51:50,721 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:50,721 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 2
+2025-03-17 00:51:50,721 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 3
+2025-03-17 00:51:50,722 DEBUG   SenderThread:30328 [sender.py:send():382] send: stats
+2025-03-17 00:51:50,722 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:50,722 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 3
+2025-03-17 00:51:50,722 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:50,723 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 3
+2025-03-17 00:51:50,723 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 4
+2025-03-17 00:51:50,723 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:50,723 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 4
+2025-03-17 00:51:50,723 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:50,723 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 4
+2025-03-17 00:51:50,723 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 5
+2025-03-17 00:51:50,724 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:50,724 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 5
+2025-03-17 00:51:50,724 DEBUG   SenderThread:30328 [sender.py:send():382] send: summary
+2025-03-17 00:51:50,725 INFO    SenderThread:30328 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2025-03-17 00:51:50,726 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:50,726 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 5
+2025-03-17 00:51:50,726 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 6
+2025-03-17 00:51:50,726 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:50,727 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 6
+2025-03-17 00:51:50,727 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:50,727 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 6
+2025-03-17 00:51:50,731 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 00:51:51,059 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 7
+2025-03-17 00:51:51,059 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:51,060 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 7
+2025-03-17 00:51:51,060 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:51,060 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 7
+2025-03-17 00:51:51,236 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json
+2025-03-17 00:51:51,236 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\config.yaml
+2025-03-17 00:51:51,236 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:51:51,237 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\media\images\Confusion Matrix_10_19d533a4825cf1f169e0.png
+2025-03-17 00:51:51,237 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\media\images
+2025-03-17 00:51:51,238 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\media
+2025-03-17 00:51:51,609 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-17 00:51:52,364 INFO    wandb-upload_0:30328 [upload_job.py:push():131] Uploaded file C:\Users\D9110~1.SAI\AppData\Local\Temp\tmp8rpds8g7wandb\xekpowfc-media/images/Confusion Matrix_10_19d533a4825cf1f169e0.png
+2025-03-17 00:51:52,755 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 8
+2025-03-17 00:51:52,755 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: poll_exit
+2025-03-17 00:51:52,756 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:52,758 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 8
+2025-03-17 00:51:52,759 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:52,760 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 8
+2025-03-17 00:51:52,760 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 9
+2025-03-17 00:51:52,761 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:52,761 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 9
+2025-03-17 00:51:52,762 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:52,762 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 9
+2025-03-17 00:51:52,763 INFO    SenderThread:30328 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-03-17 00:51:53,253 INFO    Thread-59 :30328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:51:53,258 INFO    wandb-upload_0:30328 [upload_job.py:push():131] Uploaded file C:\Users\D9110~1.SAI\AppData\Local\Temp\tmp8rpds8g7wandb\muzzixt7-media/images/Confusion Matrix_10_19d533a4825cf1f169e0.png
+2025-03-17 00:51:53,259 INFO    SenderThread:30328 [dir_watcher.py:finish():388] scan: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files
+2025-03-17 00:51:53,261 INFO    SenderThread:30328 [dir_watcher.py:finish():402] scan save: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\config.yaml config.yaml
+2025-03-17 00:51:53,262 INFO    SenderThread:30328 [dir_watcher.py:finish():402] scan save: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log output.log
+2025-03-17 00:51:53,267 INFO    SenderThread:30328 [dir_watcher.py:finish():402] scan save: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\requirements.txt requirements.txt
+2025-03-17 00:51:53,273 INFO    SenderThread:30328 [dir_watcher.py:finish():402] scan save: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-metadata.json wandb-metadata.json
+2025-03-17 00:51:53,275 INFO    SenderThread:30328 [dir_watcher.py:finish():402] scan save: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json wandb-summary.json
+2025-03-17 00:51:53,290 INFO    SenderThread:30328 [dir_watcher.py:finish():402] scan save: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\media\images\Confusion Matrix_10_19d533a4825cf1f169e0.png media/images/Confusion Matrix_10_19d533a4825cf1f169e0.png
+2025-03-17 00:51:53,291 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 10
+2025-03-17 00:51:53,291 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:53,291 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 10
+2025-03-17 00:51:53,292 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:53,292 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 10
+2025-03-17 00:51:53,292 INFO    SenderThread:30328 [file_pusher.py:finish():175] shutting down file pusher
+2025-03-17 00:51:53,626 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-17 00:51:53,627 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: poll_exit
+2025-03-17 00:51:54,013 INFO    wandb-upload_0:30328 [upload_job.py:push():131] Uploaded file c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\config.yaml
+2025-03-17 00:51:54,637 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-17 00:51:54,638 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: poll_exit
+2025-03-17 00:51:55,015 INFO    wandb-upload_1:30328 [upload_job.py:push():131] Uploaded file c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\output.log
+2025-03-17 00:51:55,078 INFO    wandb-upload_3:30328 [upload_job.py:push():131] Uploaded file c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\wandb-summary.json
+2025-03-17 00:51:55,112 INFO    wandb-upload_2:30328 [upload_job.py:push():131] Uploaded file c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\files\requirements.txt
+2025-03-17 00:51:55,326 INFO    Thread-58 :30328 [sender.py:transition_state():617] send defer: 11
+2025-03-17 00:51:55,326 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:55,326 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 11
+2025-03-17 00:51:55,327 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:55,327 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 11
+2025-03-17 00:51:55,327 INFO    SenderThread:30328 [file_pusher.py:join():181] waiting for file pusher
+2025-03-17 00:51:55,327 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 12
+2025-03-17 00:51:55,328 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:55,328 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 12
+2025-03-17 00:51:55,328 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:55,328 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 12
+2025-03-17 00:51:55,328 INFO    SenderThread:30328 [file_stream.py:finish():595] file stream finish called
+2025-03-17 00:51:55,654 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-17 00:51:56,174 INFO    SenderThread:30328 [file_stream.py:finish():599] file stream finish is done
+2025-03-17 00:51:56,174 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 13
+2025-03-17 00:51:56,175 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: poll_exit
+2025-03-17 00:51:56,175 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:56,175 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 13
+2025-03-17 00:51:56,176 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:56,176 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 13
+2025-03-17 00:51:56,176 INFO    SenderThread:30328 [sender.py:transition_state():617] send defer: 14
+2025-03-17 00:51:56,177 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 00:51:56,177 INFO    HandlerThread:30328 [handler.py:handle_request_defer():172] handle defer: 14
+2025-03-17 00:51:56,177 DEBUG   SenderThread:30328 [sender.py:send():382] send: final
+2025-03-17 00:51:56,177 DEBUG   SenderThread:30328 [sender.py:send():382] send: footer
+2025-03-17 00:51:56,177 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: defer
+2025-03-17 00:51:56,177 INFO    SenderThread:30328 [sender.py:send_request_defer():613] handle sender defer: 14
+2025-03-17 00:51:56,178 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-17 00:51:56,179 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: poll_exit
+2025-03-17 00:51:56,180 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 00:51:56,181 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: server_info
+2025-03-17 00:51:56,181 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: get_summary
+2025-03-17 00:51:56,182 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: sampled_history
+2025-03-17 00:51:56,183 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: server_info
+2025-03-17 00:51:56,183 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: job_info
+2025-03-17 00:51:56,451 DEBUG   SenderThread:30328 [sender.py:send_request():409] send_request: job_info
+2025-03-17 00:51:56,453 DEBUG   HandlerThread:30328 [handler.py:handle_request():146] handle_request: shutdown
+2025-03-17 00:51:56,453 INFO    HandlerThread:30328 [handler.py:finish():866] shutting down handler
+2025-03-17 00:51:57,200 INFO    WriterThread:30328 [datastore.py:close():294] close: c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004723-qh0l59uo\run-qh0l59uo.wandb
+2025-03-17 00:51:57,465 INFO    SenderThread:30328 [sender.py:finish():1548] shutting down sender
+2025-03-17 00:51:57,465 INFO    SenderThread:30328 [file_pusher.py:finish():175] shutting down file pusher
+2025-03-17 00:51:57,465 INFO    SenderThread:30328 [file_pusher.py:join():181] waiting for file pusher

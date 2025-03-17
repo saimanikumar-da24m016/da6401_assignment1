@@ -1,0 +1,14 @@
+
+Starting run: corr_nadam_tanh_4_128_64
+Epoch 1/10: Loss=0.4734, Acc=0.8292, Val Loss=0.3808, Val Acc=0.8640
+Epoch 2/10: Loss=0.3704, Acc=0.8635, Val Loss=0.3734, Val Acc=0.8627
+Epoch 3/10: Loss=0.3445, Acc=0.8739, Val Loss=0.3376, Val Acc=0.8742
+Epoch 4/10: Loss=0.3293, Acc=0.8781, Val Loss=0.3601, Val Acc=0.8680
+Epoch 5/10: Loss=0.3162, Acc=0.8838, Val Loss=0.3421, Val Acc=0.8770
+Epoch 6/10: Loss=0.3080, Acc=0.8860, Val Loss=0.3499, Val Acc=0.8755
+Epoch 7/10: Loss=0.3005, Acc=0.8893, Val Loss=0.3333, Val Acc=0.8785
+Epoch 8/10: Loss=0.2945, Acc=0.8906, Val Loss=0.3484, Val Acc=0.8740
+Epoch 9/10: Loss=0.2915, Acc=0.8920, Val Loss=0.3564, Val Acc=0.8718
+Epoch 10/10: Loss=0.2868, Acc=0.8927, Val Loss=0.3275, Val Acc=0.8783
+Test Accuracy: 0.8774
+Test Accuracy for corr_nadam_tanh_4_128_64: 87.74%

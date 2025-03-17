@@ -1,0 +1,99 @@
+2025-03-11 13:33:52,203 INFO    Thread-198:5828 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2025-03-11 13:33:52,203 INFO    Thread-198:5828 [wandb_setup.py:_flush():76] Configure stats pid to 5828
+2025-03-11 13:33:52,203 INFO    Thread-198:5828 [wandb_setup.py:_flush():76] Loading settings from C:\Users\D. Sai Mani Kumar\.config\wandb\settings
+2025-03-11 13:33:52,204 INFO    Thread-198:5828 [wandb_setup.py:_flush():76] Loading settings from c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\settings
+2025-03-11 13:33:52,204 INFO    Thread-198:5828 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'DL_Assignment_01', 'entity': 'da24m016-indian-institute-of-technology-madras', 'root_dir': 'c:\\Users\\D. Sai Mani Kumar\\Downloads\\DL\\da6401_assignment1', 'run_id': '74um1pnk', 'sweep_param_path': 'c:\\Users\\D. Sai Mani Kumar\\Downloads\\DL\\da6401_assignment1\\wandb\\sweep-gt4ffzpr\\config-74um1pnk.yaml', 'sweep_id': 'gt4ffzpr'}
+2025-03-11 13:33:52,204 INFO    Thread-198:5828 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-03-11 13:33:52,204 INFO    Thread-198:5828 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-03-11 13:33:52,204 INFO    Thread-198:5828 [wandb_init.py:_log_setup():524] Logging user logs to c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250311_133352-74um1pnk\logs\debug.log
+2025-03-11 13:33:52,205 INFO    Thread-198:5828 [wandb_init.py:_log_setup():525] Logging internal logs to c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250311_133352-74um1pnk\logs\debug-internal.log
+2025-03-11 13:33:52,205 INFO    Thread-198:5828 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001F767BE2E50>
+2025-03-11 13:33:52,206 INFO    Thread-198:5828 [wandb_init.py:init():564] calling init triggers
+2025-03-11 13:33:52,206 INFO    Thread-198:5828 [wandb_init.py:init():571] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 16, 'epochs': 10, 'hidden_layer_size': 128, 'hidden_layers': 3, 'learning_rate': 0.0001, 'optimiser': 'rmsprop', 'weight_decay': 0, 'weight_init': 'xavier'}
+config: {}
+2025-03-11 13:33:52,206 INFO    Thread-198:5828 [wandb_init.py:init():614] starting backend
+2025-03-11 13:33:52,206 INFO    Thread-198:5828 [wandb_init.py:init():618] setting up manager
+2025-03-11 13:33:52,222 INFO    Thread-198:5828 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2025-03-11 13:33:52,223 INFO    Thread-198:5828 [wandb_init.py:init():624] backend started and connected
+2025-03-11 13:33:52,268 INFO    Thread-198:5828 [wandb_run.py:_config_callback():1342] config_cb None None {'activation': 'tanh', 'batch_size': 16, 'epochs': 10, 'hidden_layer_size': 128, 'hidden_layers': 3, 'learning_rate': 0.0001, 'optimiser': 'rmsprop', 'weight_decay': 0, 'weight_init': 'xavier'}
+2025-03-11 13:33:52,310 INFO    Thread-198:5828 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2025-03-11 13:33:52,310 INFO    Thread-198:5828 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-03-11 13:33:52,310 INFO    Thread-198:5828 [wandb_init.py:init():716] updated telemetry
+2025-03-11 13:33:52,450 INFO    Thread-198:5828 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2025-03-11 13:33:53,204 INFO    Thread-198:5828 [wandb_run.py:_on_init():2254] communicating current version
+2025-03-11 13:33:53,357 INFO    Thread-198:5828 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.19.8 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-03-11 13:33:53,357 INFO    Thread-198:5828 [wandb_init.py:init():800] starting run threads in backend
+2025-03-11 13:33:54,887 INFO    Thread-198:5828 [wandb_run.py:_console_start():2233] atexit reg
+2025-03-11 13:33:54,887 INFO    Thread-198:5828 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2025-03-11 13:33:54,888 INFO    Thread-198:5828 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2025-03-11 13:33:54,888 INFO    Thread-198:5828 [wandb_run.py:_redirect():2178] Redirects installed.
+2025-03-11 13:33:54,890 INFO    Thread-198:5828 [wandb_init.py:init():841] run started, returning control to user process
+2025-03-11 13:38:02,157 INFO    Thread-198:5828 [wandb_run.py:_finish():1962] finishing run da24m016-indian-institute-of-technology-madras/DL_Assignment_01/74um1pnk
+2025-03-11 13:38:02,188 INFO    Thread-198:5828 [jupyter.py:save_history():445] not saving jupyter history
+2025-03-11 13:38:02,189 INFO    Thread-198:5828 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2025-03-11 13:38:02,189 INFO    Thread-198:5828 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2025-03-11 13:38:02,193 INFO    Thread-198:5828 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2025-03-11 13:38:02,198 INFO    Thread-198:5828 [wandb_run.py:_restore():2185] restore
+2025-03-11 13:38:02,201 INFO    Thread-198:5828 [wandb_run.py:_restore():2191] restore done
+2025-03-11 13:39:14,445 INFO    Thread-35 :5828 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 1061, in _validate_conn
+    conn.connect()
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001F76620CDF0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F76620CDF0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\Users\D. Sai Mani Kumar\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F76620CDF0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2025-03-11 13:39:43,242 INFO    Thread-198:5828 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2025-03-11 13:39:43,246 INFO    Thread-198:5828 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2025-03-11 13:39:43,295 INFO    Thread-198:5828 [wandb_run.py:_footer_sync_info():3796] logging synced files

@@ -1,0 +1,16 @@
+Starting run: mnist_nadam_tanh_3_128_64
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11493376/11490434 [==============================] - 3s 0us/step
+11501568/11490434 [==============================] - 3s 0us/step
+Epoch 1/10: Loss=0.2757, Acc=0.9176, Val Loss=0.1654, Val Acc=0.9502
+Epoch 2/10: Loss=0.1278, Acc=0.9614, Val Loss=0.1109, Val Acc=0.9638
+Epoch 3/10: Loss=0.0874, Acc=0.9730, Val Loss=0.1015, Val Acc=0.9687
+Epoch 4/10: Loss=0.0648, Acc=0.9791, Val Loss=0.0794, Val Acc=0.9767
+Epoch 5/10: Loss=0.0498, Acc=0.9838, Val Loss=0.0799, Val Acc=0.9755
+Epoch 6/10: Loss=0.0396, Acc=0.9873, Val Loss=0.0815, Val Acc=0.9760
+Epoch 7/10: Loss=0.0314, Acc=0.9897, Val Loss=0.0803, Val Acc=0.9760
+Epoch 8/10: Loss=0.0259, Acc=0.9913, Val Loss=0.0722, Val Acc=0.9783
+Epoch 9/10: Loss=0.0213, Acc=0.9930, Val Loss=0.0876, Val Acc=0.9750
+Epoch 10/10: Loss=0.0191, Acc=0.9937, Val Loss=0.0805, Val Acc=0.9783
+Test Accuracy: 0.9747
+Test Accuracy for mnist_nadam_tanh_3_128_64: 97.47%

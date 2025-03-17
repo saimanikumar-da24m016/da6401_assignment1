@@ -1,0 +1,59 @@
+2025-03-17 00:42:12,994 INFO    MainThread:27876 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2025-03-17 00:42:12,994 INFO    MainThread:27876 [wandb_setup.py:_flush():76] Configure stats pid to 27876
+2025-03-17 00:42:12,995 INFO    MainThread:27876 [wandb_setup.py:_flush():76] Loading settings from C:\Users\D. Sai Mani Kumar\.config\wandb\settings
+2025-03-17 00:42:12,995 INFO    MainThread:27876 [wandb_setup.py:_flush():76] Loading settings from c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\settings
+2025-03-17 00:42:12,995 INFO    MainThread:27876 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'DL_Assignment_01', 'entity': 'da24m016-indian-institute-of-technology-madras', 'root_dir': 'c:\\Users\\D. Sai Mani Kumar\\Downloads\\DL\\da6401_assignment1', 'run_id': 'qh0l59uo', 'sweep_param_path': 'c:\\Users\\D. Sai Mani Kumar\\Downloads\\DL\\da6401_assignment1\\wandb\\sweep-9f34spkv\\config-qh0l59uo.yaml', 'sweep_id': '9f34spkv'}
+2025-03-17 00:42:12,996 INFO    MainThread:27876 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-03-17 00:42:12,996 INFO    MainThread:27876 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-03-17 00:42:12,996 INFO    MainThread:27876 [wandb_init.py:_log_setup():524] Logging user logs to c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004212-qh0l59uo\logs\debug.log
+2025-03-17 00:42:13,002 INFO    MainThread:27876 [wandb_init.py:_log_setup():525] Logging internal logs to c:\Users\D. Sai Mani Kumar\Downloads\DL\da6401_assignment1\wandb\run-20250317_004212-qh0l59uo\logs\debug-internal.log
+2025-03-17 00:42:13,004 INFO    MainThread:27876 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001CF0CFA60D0>
+2025-03-17 00:42:13,009 INFO    MainThread:27876 [wandb_init.py:init():564] calling init triggers
+2025-03-17 00:42:13,010 INFO    MainThread:27876 [wandb_init.py:init():571] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 16, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers': 5, 'learning_rate': 0.001, 'optimiser': 'adam', 'weight_decay': 0.0005, 'weight_init': 'xavier'}
+config: {}
+2025-03-17 00:42:13,010 INFO    MainThread:27876 [wandb_init.py:init():614] starting backend
+2025-03-17 00:42:13,010 INFO    MainThread:27876 [wandb_init.py:init():618] setting up manager
+2025-03-17 00:42:13,050 INFO    MainThread:27876 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2025-03-17 00:42:13,065 INFO    MainThread:27876 [wandb_init.py:init():624] backend started and connected
+2025-03-17 00:42:13,137 INFO    MainThread:27876 [wandb_run.py:_config_callback():1342] config_cb None None {'activation': 'relu', 'batch_size': 16, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers': 5, 'learning_rate': 0.001, 'optimiser': 'adam', 'weight_decay': 0.0005, 'weight_init': 'xavier'}
+2025-03-17 00:42:13,187 INFO    MainThread:27876 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2025-03-17 00:42:13,187 INFO    MainThread:27876 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-03-17 00:42:13,187 INFO    MainThread:27876 [wandb_init.py:init():716] updated telemetry
+2025-03-17 00:42:13,278 INFO    MainThread:27876 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2025-03-17 00:42:14,069 INFO    MainThread:27876 [wandb_run.py:_on_init():2254] communicating current version
+2025-03-17 00:42:14,212 INFO    MainThread:27876 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.19.8 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-03-17 00:42:14,212 INFO    MainThread:27876 [wandb_init.py:init():800] starting run threads in backend
+2025-03-17 00:42:14,688 INFO    MainThread:27876 [wandb_run.py:_console_start():2233] atexit reg
+2025-03-17 00:42:14,689 INFO    MainThread:27876 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2025-03-17 00:42:14,689 INFO    MainThread:27876 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2025-03-17 00:42:14,690 INFO    MainThread:27876 [wandb_run.py:_redirect():2178] Redirects installed.
+2025-03-17 00:42:14,692 INFO    MainThread:27876 [wandb_init.py:init():841] run started, returning control to user process
+2025-03-17 00:42:14,706 INFO    MainThread:27876 [wandb_config.py:__setitem__():151] config set num_layers = 3 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CF0C938220>>
+2025-03-17 00:42:14,707 INFO    MainThread:27876 [wandb_run.py:_config_callback():1342] config_cb num_layers 3 None
+2025-03-17 00:42:14,709 INFO    MainThread:27876 [wandb_config.py:__setitem__():151] config set hidden_size = 128 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CF0C938220>>
+2025-03-17 00:42:14,709 INFO    MainThread:27876 [wandb_run.py:_config_callback():1342] config_cb hidden_size 128 None
+2025-03-17 00:42:14,726 INFO    MainThread:27876 [wandb_config.py:__setitem__():151] config set loss = cross_entropy - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CF0C938220>>
+2025-03-17 00:42:14,727 INFO    MainThread:27876 [wandb_run.py:_config_callback():1342] config_cb loss cross_entropy None
+2025-03-17 00:42:14,728 INFO    MainThread:27876 [wandb_config.py:__setitem__():151] config set optimizer = nadam - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CF0C938220>>
+2025-03-17 00:42:14,728 INFO    MainThread:27876 [wandb_run.py:_config_callback():1342] config_cb optimizer nadam None
+2025-03-17 00:42:14,729 INFO    MainThread:27876 [wandb_config.py:__setitem__():151] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CF0C938220>>
+2025-03-17 00:42:14,729 INFO    MainThread:27876 [wandb_run.py:_config_callback():1342] config_cb momentum 0.9 None
+2025-03-17 00:42:14,730 INFO    MainThread:27876 [wandb_config.py:__setitem__():151] config set beta = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CF0C938220>>
+2025-03-17 00:42:14,730 INFO    MainThread:27876 [wandb_run.py:_config_callback():1342] config_cb beta 0.9 None
+2025-03-17 00:42:14,731 INFO    MainThread:27876 [wandb_config.py:__setitem__():151] config set beta1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CF0C938220>>
+2025-03-17 00:42:14,731 INFO    MainThread:27876 [wandb_run.py:_config_callback():1342] config_cb beta1 0.9 None
+2025-03-17 00:42:14,732 INFO    MainThread:27876 [wandb_config.py:__setitem__():151] config set beta2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CF0C938220>>
+2025-03-17 00:42:14,732 INFO    MainThread:27876 [wandb_run.py:_config_callback():1342] config_cb beta2 0.999 None
+2025-03-17 00:42:14,733 INFO    MainThread:27876 [wandb_config.py:__setitem__():151] config set epsilon = 1e-08 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CF0C938220>>
+2025-03-17 00:42:14,733 INFO    MainThread:27876 [wandb_run.py:_config_callback():1342] config_cb epsilon 1e-08 None
+2025-03-17 00:46:47,328 INFO    MainThread:27876 [wandb_run.py:_finish():1962] finishing run da24m016-indian-institute-of-technology-madras/DL_Assignment_01/qh0l59uo
+2025-03-17 00:46:47,332 INFO    MainThread:27876 [jupyter.py:save_history():445] not saving jupyter history
+2025-03-17 00:46:47,333 INFO    MainThread:27876 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2025-03-17 00:46:47,333 INFO    MainThread:27876 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2025-03-17 00:46:47,333 INFO    MainThread:27876 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2025-03-17 00:46:47,334 INFO    MainThread:27876 [wandb_run.py:_restore():2185] restore
+2025-03-17 00:46:47,334 INFO    MainThread:27876 [wandb_run.py:_restore():2191] restore done
+2025-03-17 00:46:53,628 INFO    MainThread:27876 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2025-03-17 00:46:53,631 INFO    MainThread:27876 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2025-03-17 00:46:53,665 INFO    MainThread:27876 [wandb_run.py:_footer_sync_info():3796] logging synced files

@@ -1,0 +1,8 @@
+
+Epoch 1/5: Loss=0.0240, Acc=0.8303, Val Loss=0.0200, Val Acc=0.8577
+Epoch 2/5: Loss=0.0189, Acc=0.8666, Val Loss=0.0187, Val Acc=0.8668
+Epoch 3/5: Loss=0.0174, Acc=0.8779, Val Loss=0.0177, Val Acc=0.8753
+Epoch 4/5: Loss=0.0166, Acc=0.8833, Val Loss=0.0170, Val Acc=0.8837
+Epoch 5/5: Loss=0.0158, Acc=0.8882, Val Loss=0.0171, Val Acc=0.8805
+Test Accuracy: 0.8685
+Test Accuracy: 86.85%
