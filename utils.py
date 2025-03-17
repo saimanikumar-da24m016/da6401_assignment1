@@ -32,7 +32,7 @@ def load_data(dataset="fashion_mnist"):
     return X_train, y_train, X_val, y_val, X_test, y_test
 
 
-def train_model(network, optimizer, X_train, y_train, X_val, y_val, epochs, batch_size):
+def train(network, optimizer, X_train, y_train, X_val, y_val, epochs, batch_size):
     num_samples = X_train.shape[0]
     steps_per_epoch = num_samples // batch_size
     for epoch in range(epochs):
