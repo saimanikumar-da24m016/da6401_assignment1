@@ -79,7 +79,6 @@ class NeuralNetwork:
             raise ValueError("Unknown loss function.")
         
         
-        # Defining the layer sizes: input -> hidden layers -> output here
         self.layer_sizes = [input_size] + hidden_sizes + [output_size]
         self.num_layers = len(self.layer_sizes) - 1
         
@@ -91,6 +90,7 @@ class NeuralNetwork:
             if weight_init.lower() == 'xavier':
                 limit = np.sqrt(6 / (self.layer_sizes[i-1] + self.layer_sizes[i]))
                 self.params['W' + str(i)] = np.random.uniform(-limit, limit, (self.layer_sizes[i-1], self.layer_sizes[i]))
+            
             # random weight initialization method
             else:  
                 self.params['W' + str(i)] = np.random.randn(self.layer_sizes[i-1], self.layer_sizes[i]) * 0.01

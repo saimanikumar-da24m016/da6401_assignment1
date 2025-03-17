@@ -3,6 +3,8 @@ import seaborn as sns
 from sklearn.metrics import confusion_matrix
 from keras.datasets import fashion_mnist
 import wandb
+import numpy as np
+import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
 
@@ -23,7 +25,6 @@ def load_data(dataset="fashion_mnist"):
     y_train = np.eye(num_classes)[y_train]
     y_test = np.eye(num_classes)[y_test]
     
-    # Use train_test_split to create a 10% validation split
     X_train, X_val, y_train, y_val = train_test_split(
         X_train, y_train, test_size=0.1, random_state=42, shuffle=True
     )

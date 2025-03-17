@@ -31,7 +31,6 @@ def parse_args():
 def main():
     args = parse_args()
     
-    # Initialize WandB for experiment tracking
     wandb.init(project=args.wandb_project, entity=args.wandb_entity, config=vars(args))
     
     # Loading and preprocess data
@@ -45,19 +44,17 @@ def main():
     # Initialize neural network from model.py
     network = NeuralNetwork(input_size, hidden_sizes, output_size, args.activation, args.weight_init, args.loss)
     
-    # Initialize optimizer from optimizer.py
+    
     optimizer = Optimizer(network.params, args.optimizer, args.learning_rate,
                           momentum=args.momentum, beta=args.beta,
                           beta1=args.beta1, beta2=args.beta2, epsilon=args.epsilon,
                           weight_decay=args.weight_decay)
     
-    # Train the network (train function from utils.py)
     network = train(network, optimizer, X_train, y_train, X_val, y_val, args.epochs, args.batch_size)
     
-    # Evaluate the model on the test set (evaluate function from utils.py)
+  
     predictions, true_labels, test_acc = evaluate(network, X_test, y_test)
     
-    # Plot and log confusion matrix (plot_confusion_matrix function from utils.py)
     classes = [str(i) for i in range(10)]
     plot_confusion_matrix(true_labels, predictions, classes)
     
