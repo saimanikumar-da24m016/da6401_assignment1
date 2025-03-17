@@ -34,10 +34,10 @@ def main():
     # Initialize WandB for experiment tracking
     wandb.init(project=args.wandb_project, entity=args.wandb_entity, config=vars(args))
     
-    # Load and preprocess data
+    # Loading and preprocess data
     X_train, y_train, X_val, y_val, X_test, y_test = load_data(args.dataset)
     input_size = X_train.shape[1]
-    output_size = 10  # for 10 classes
+    output_size = 10  
 
     # Build list of hidden layer sizes based on num_layers and hidden_size
     hidden_sizes = [args.hidden_size] * args.num_layers
